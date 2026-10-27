@@ -1,0 +1,1464 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>AERNOXA SOLUTIONS</title>
+<meta name="description" content="Soluciones aéreas, producción audiovisual y documentación visual para marcas y proyectos. AERNOXA SOLUTIONS, Bogotá. Cuéntanos qué necesitas.">
+<meta name="keywords" content="soluciones aéreas Bogotá, producción audiovisual aérea, documentación visual de proyectos, seguimiento de obra, fotografía y video aéreo Bogotá">
+<meta name="theme-color" content="#050B18">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mfsuarezh5-ing.github.io/aernoxasolutions/">
+
+<!-- Open Graph / redes sociales -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CO">
+<meta property="og:site_name" content="AERNOXA SOLUTIONS">
+<meta property="og:title" content="AERNOXA SOLUTIONS | Soluciones aéreas y visuales">
+<meta property="og:description" content="Soluciones aéreas, producción audiovisual y documentación visual para marcas y proyectos. AERNOXA SOLUTIONS, Bogotá. Cuéntanos qué necesitas.">
+<meta property="og:url" content="https://mfsuarezh5-ing.github.io/aernoxasolutions/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AERNOXA SOLUTIONS | Soluciones aéreas y visuales">
+<meta name="twitter:description" content="Soluciones aéreas, producción audiovisual y documentación visual para marcas y proyectos. AERNOXA SOLUTIONS, Bogotá. Cuéntanos qué necesitas.">
+<meta property="og:image" content="https://mfsuarezh5-ing.github.io/aernoxasolutions/assets/img/og-aernoxa.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Logotipo de AERNOXA SOLUTIONS con el texto Soluciones aéreas y visuales">
+<meta name="twitter:image" content="https://mfsuarezh5-ing.github.io/aernoxasolutions/assets/img/og-aernoxa.jpg">
+
+<link rel="icon" type="image/png" href="assets/img/favicon-aernoxa.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "AERNOXA SOLUTIONS",
+  "description": "Soluciones aéreas, producción audiovisual y documentación visual para marcas y proyectos en Bogotá, Colombia.",
+  "email": "aernoxasolutions@outlook.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bogotá",
+    "addressRegion": "Bogotá D.C.",
+    "addressCountry": "CO"
+  },
+  "areaServed": "Bogotá y alrededores",
+  "url": "https://mfsuarezh5-ing.github.io/aernoxasolutions/",
+  "sameAs": ["https://www.instagram.com/aernoxasolutions/"]
+}
+</script>
+
+<style>
+/* Layout: cabina de vuelo — bandas oscuras a todo el ancho, contenido en una columna de 1200 px,
+   lecturas tipo HUD en los márgenes y un altímetro que acompaña el scroll. */
+:root{
+  --ink:#050B18;          /* azul marino casi negro: fondo base */
+  --deep:#0A1530;         /* azul marino: bandas y paneles */
+  --panel:#0F1E40;        /* panel elevado */
+  --line:rgba(150,182,224,.16);
+  --line-strong:rgba(150,182,224,.32);
+  --cyan:#22D3EE;         /* acento */
+  --cyan-dim:rgba(34,211,238,.14);
+  --white:#F2F6FB;
+  --mute:#9DAEC6;         /* texto secundario, gris con sesgo azul */
+  --metal-hi:#EEF2F7;
+  --metal-lo:#7E8CA2;
+  --danger:#FF8A8A;
+
+  --f-display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+
+  --gutter-l:max(clamp(16px,4vw,40px), env(safe-area-inset-left,0px));
+  --gutter-r:max(clamp(16px,4vw,40px), env(safe-area-inset-right,0px));
+  --header-h:72px;
+  --radius:4px;
+  color-scheme:dark;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-h) + 16px);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--ink);color:var(--white);font:400 1rem/1.65 var(--f-body);-webkit-font-smoothing:antialiased;overflow-x:clip}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--ink)}
+img,video{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:2px}
+::selection{background:var(--cyan);color:var(--ink)}
+[hidden]{display:none!important}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+
+.wrap{max-width:1200px;margin-inline:auto;padding-left:var(--gutter-l);padding-right:var(--gutter-r)}
+section{position:relative}
+.band{padding-block:clamp(80px,10vw,144px)}
+.band-deep{background:var(--deep)}
+
+/* Tipografía */
+h1,h2,h3{font-family:var(--f-display);margin:0;line-height:1.04;text-wrap:balance;font-stretch:112%}
+h1{font-size:clamp(2.5rem,1.3rem + 4.8vw,5.4rem);font-weight:650;letter-spacing:-.025em}
+h2{font-size:clamp(2rem,1.25rem + 2.9vw,3.6rem);font-weight:650;letter-spacing:-.02em}
+h3{font-size:1.25rem;font-weight:600;font-stretch:104%;letter-spacing:-.005em;line-height:1.2}
+p{margin:0}
+.eyebrow{display:inline-flex;align-items:center;gap:.75em;font:500 .75rem/1 var(--f-mono);letter-spacing:.22em;text-transform:uppercase;color:var(--cyan)}
+.eyebrow::before{content:"";width:28px;height:1px;background:currentColor}
+.eyebrow{line-height:1.5}
+.eyebrow::before{flex:none}
+.lead{font-size:clamp(1.05rem,1rem + .3vw,1.22rem);color:var(--mute);max-width:60ch}
+.metal{background:linear-gradient(180deg,var(--metal-hi) 10%,var(--metal-lo) 95%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.accent{color:var(--cyan)}
+.section-head{display:grid;gap:20px;max-width:780px;margin-bottom:clamp(40px,6vw,72px)}
+
+/* Botones */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:48px;padding:0 24px;border-radius:var(--radius);font:600 .95rem/1 var(--f-body);letter-spacing:.01em;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background .25s,color .25s,border-color .25s,transform .25s}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-primary{background:var(--cyan);color:var(--ink)}
+.btn-primary:hover{background:var(--white)}
+.btn-ghost{background:transparent;color:var(--white);border-color:var(--line-strong)}
+.btn-ghost:hover{border-color:var(--cyan);color:var(--cyan)}
+.btn:active{transform:translateY(1px)}
+
+/* Encabezado */
+.site-header{position:fixed;top:0;left:0;right:0;z-index:50;padding-top:env(safe-area-inset-top,0px);border-bottom:1px solid transparent;transition:background .35s,border-color .35s,backdrop-filter .35s}
+.site-header.scrolled,.site-header.open{background:rgba(5,11,24,.86);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:24px;height:var(--header-h)}
+.brand{display:inline-flex;align-items:center;gap:12px;text-decoration:none;flex:none}
+.brand-mark{width:34px;height:34px}
+.brand-word{display:grid;line-height:1}
+.brand-name{font:700 1.06rem/1 var(--f-display);font-stretch:125%;letter-spacing:.16em}
+.brand-sub{font:500 .58rem/1 var(--f-mono);letter-spacing:.42em;color:var(--cyan);margin-top:5px}
+.brand-logo-img{display:block;height:clamp(37px,3.8vw,48px);width:auto;max-width:none;object-fit:contain;flex-shrink:0}.brand{gap:9px}.brand-word{min-width:0}.brand-name{white-space:nowrap}.brand-sub{white-space:nowrap}@media(max-width:420px){.brand-logo-img{height:38px}.brand-name{font-size:.88rem}.brand-sub{font-size:.50rem}.brand{gap:7px}}
+.nav-links{display:flex;align-items:center;gap:clamp(18px,2.4vw,34px);list-style:none;margin:0;padding:0}
+.nav-links a{font-size:.92rem;color:var(--mute);text-decoration:none;transition:color .2s;position:relative;padding-block:6px}
+.nav-links a:not(.btn):hover,.nav-links a[aria-current="true"]{color:var(--white)}
+.nav-links a:not(.btn)::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:1px;background:var(--cyan);transition:right .3s}
+.nav-links a:not(.btn):hover::after,.nav-links a[aria-current="true"]::after{right:0}
+.nav-links .btn{min-height:40px;padding:0 18px;font-size:.88rem;color:var(--ink)}
+.nav-toggle{display:none;background:none;border:1px solid var(--line-strong);border-radius:var(--radius);width:44px;height:44px;color:var(--white);cursor:pointer;align-items:center;justify-content:center}
+.nav-toggle svg{width:22px;height:22px}
+@media (max-width:900px){
+  .nav-toggle{display:inline-flex}
+  .nav-links{position:fixed;top:calc(var(--header-h) + env(safe-area-inset-top,0px));left:0;right:0;flex-direction:column;align-items:stretch;gap:0;padding:8px var(--gutter-r) 28px var(--gutter-l);background:rgba(5,11,24,.97);border-bottom:1px solid var(--line);transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .25s,transform .25s,visibility .25s}
+  .site-header.open .nav-links{opacity:1;transform:none;visibility:visible}
+  .nav-links li{border-bottom:1px solid var(--line)}
+  .nav-links li:last-child{border:0;padding-top:20px}
+  .nav-links a:not(.btn){display:block;padding:16px 0;font-size:1.05rem;color:var(--white)}
+  .nav-links a:not(.btn)::after{display:none}
+  .nav-links .btn{width:100%;min-height:50px}
+}
+
+/* Portada */
+.hero{position:relative;min-height:clamp(620px,94vh,920px);display:flex;align-items:flex-end;overflow:hidden;background:var(--ink);isolation:isolate}
+.hero-media{position:absolute;inset:0;z-index:-2}
+.hero-media canvas,.hero-media video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.hero.has-video canvas{display:none}
+.hero-shade{position:absolute;inset:0;z-index:-1;background:
+  linear-gradient(90deg,rgba(5,11,24,.94) 0%,rgba(5,11,24,.62) 42%,rgba(5,11,24,.08) 78%),
+  linear-gradient(0deg,var(--ink) 0%,rgba(5,11,24,0) 32%)}
+.hero-content{width:100%;padding-block:calc(var(--header-h) + 120px) clamp(72px,9vw,120px)}
+.hero-inner{display:grid;gap:28px;max-width:820px}
+.hero h1 em{font-style:normal}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+.hero-meta{display:flex;flex-wrap:wrap;gap:8px 28px;margin-top:20px;font:400 .78rem/1.4 var(--f-mono);letter-spacing:.08em;color:var(--mute);text-transform:uppercase}
+.hero-meta span{display:inline-flex;align-items:center;gap:10px}
+.hero-meta span::before{content:"";width:6px;height:6px;border:1px solid var(--cyan);transform:rotate(45deg)}
+
+@media (prefers-reduced-motion:no-preference){
+  .hero-inner > *{animation:lift .9s cubic-bezier(.2,.7,.2,1) both}
+  .hero-inner > *:nth-child(2){animation-delay:.12s}
+  .hero-inner > *:nth-child(3){animation-delay:.24s}
+  .hero-inner > *:nth-child(4){animation-delay:.36s}
+  .hero-inner > *:nth-child(5){animation-delay:.48s}
+  .hud{animation:hudIn 1.4s .2s ease both}
+}
+@keyframes lift{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@keyframes hudIn{from{opacity:0;transform:scale(1.03)}to{opacity:1;transform:none}}
+
+/* HUD (visor del dron) */
+.hud{position:absolute;z-index:-1;pointer-events:none;
+  top:calc(var(--header-h) + env(safe-area-inset-top,0px) + 18px);bottom:22px;
+  left:var(--gutter-l);right:var(--gutter-r);
+  font:500 .7rem/1.3 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:rgba(214,228,245,.72)}
+.hud-corner{position:absolute;width:22px;height:22px;border:0 solid rgba(214,228,245,.55)}
+.hud-corner.tl{top:0;left:0;border-top-width:1px;border-left-width:1px}
+.hud-corner.tr{top:0;right:0;border-top-width:1px;border-right-width:1px}
+.hud-corner.bl{bottom:0;left:0;border-bottom-width:1px;border-left-width:1px}
+.hud-corner.br{bottom:0;right:0;border-bottom-width:1px;border-right-width:1px}
+.hud-read{position:absolute;display:flex;gap:16px;align-items:center;white-space:nowrap}
+.hud-read.tl{top:12px;left:34px}
+.hud-read.tr{top:12px;right:34px}
+.hud-read.br{bottom:12px;right:34px;flex-direction:column;align-items:flex-end;gap:6px}
+.rec{display:inline-flex;align-items:center;gap:8px;color:var(--white)}
+.rec::before{content:"";width:8px;height:8px;border-radius:50%;background:#FF4D5E;animation:blink 1.2s steps(2,start) infinite}
+@keyframes blink{to{visibility:hidden}}
+.crosshair{position:absolute;left:66%;top:46%;width:64px;height:64px;transform:translate(-50%,-50%)}
+.crosshair::before,.crosshair::after{content:"";position:absolute;background:rgba(214,228,245,.5)}
+.crosshair::before{left:0;right:0;top:50%;height:1px;mask:linear-gradient(90deg,#000 35%,transparent 35% 65%,#000 65%);-webkit-mask:linear-gradient(90deg,#000 35%,transparent 35% 65%,#000 65%)}
+.crosshair::after{top:0;bottom:0;left:50%;width:1px;mask:linear-gradient(180deg,#000 35%,transparent 35% 65%,#000 65%);-webkit-mask:linear-gradient(180deg,#000 35%,transparent 35% 65%,#000 65%)}
+.tabular{font-variant-numeric:tabular-nums}
+@media (max-width:760px){
+  .hud-read.tr,.crosshair,.hud-read.br{display:none}
+}
+
+.scroll-cue{position:absolute;right:var(--gutter-r);bottom:clamp(72px,9vw,120px);display:flex;flex-direction:column;align-items:center;gap:12px;font:500 .68rem/1 var(--f-mono);letter-spacing:.2em;color:var(--mute);text-decoration:none;writing-mode:vertical-rl}
+.scroll-cue i{width:1px;height:56px;background:linear-gradient(var(--cyan),transparent);display:block}
+@media (prefers-reduced-motion:no-preference){.scroll-cue i{animation:drop 2.2s ease-in-out infinite}}
+@keyframes drop{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}55%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+@media (max-width:760px){.scroll-cue{display:none}}
+
+/* Altímetro de scroll (solo pantallas anchas) */
+.altimeter{position:fixed;z-index:40;right:calc(22px + env(safe-area-inset-right,0px));top:50%;transform:translateY(-50%);display:none;flex-direction:column;align-items:center;gap:12px;font:500 .66rem/1 var(--f-mono);letter-spacing:.16em;color:var(--mute);pointer-events:none}
+.alt-track{position:relative;width:14px;height:220px;background:repeating-linear-gradient(180deg,var(--line-strong) 0 1px,transparent 1px 11px);border-right:1px solid var(--line-strong)}
+.alt-bug{position:absolute;right:-1px;top:0;width:22px;height:2px;background:var(--cyan);box-shadow:0 0 12px var(--cyan);transition:top .15s linear}
+.alt-read{color:var(--white)}
+.alt-read b{font-weight:500;color:var(--cyan)}
+@media (min-width:1380px){.altimeter{display:flex}}
+
+/* Nosotros */
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(40px,7vw,104px);align-items:start}
+.about-copy{display:grid;gap:22px;min-width:0}
+.about-copy p{color:var(--mute);max-width:60ch}
+.about-copy p strong{color:var(--white);font-weight:500}
+.route{list-style:none;margin:0;padding:0;display:grid;gap:0;min-width:0}
+.route-title{font:500 .72rem/1 var(--f-mono);letter-spacing:.2em;text-transform:uppercase;color:var(--mute);margin-bottom:22px}
+.route li{position:relative;display:grid;grid-template-columns:28px 1fr;gap:18px;padding-bottom:30px}
+.route li:last-child{padding-bottom:0}
+.route li::before{content:"";position:absolute;left:13px;top:22px;bottom:-2px;width:1px;background:var(--line-strong)}
+.route li:last-child::before{display:none}
+.node{width:28px;height:28px;display:grid;place-items:center;border:1px solid var(--line-strong);border-radius:50%;background:var(--ink)}
+.node::after{content:"";width:8px;height:8px;border-radius:50%;background:var(--line-strong)}
+.route li.active .node{border-color:var(--cyan)}
+.route li.active .node::after{background:var(--cyan);box-shadow:0 0 10px var(--cyan)}
+.route h3{font-size:1.1rem}
+.route p{color:var(--mute);font-size:.95rem;margin-top:6px}
+.pill{display:inline-block;margin-bottom:8px;padding:5px 9px;border-radius:2px;font:500 .64rem/1 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;border:1px solid var(--line-strong);color:var(--mute)}
+.pill.on{background:var(--cyan-dim);border-color:rgba(34,211,238,.5);color:var(--cyan)}
+
+.principles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(24px,3vw,40px);margin-top:clamp(56px,8vw,96px);padding-top:clamp(36px,5vw,56px);border-top:1px solid var(--line)}
+.principle{display:grid;gap:12px;align-content:start}
+.principle svg{width:26px;height:26px;color:var(--cyan)}
+.principle h3{font-size:1.05rem}
+.principle p{color:var(--mute);font-size:.94rem}
+
+/* Servicios */
+.services{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.service{position:relative;display:grid;gap:14px;align-content:start;padding:clamp(24px,2.6vw,34px);background:linear-gradient(160deg,var(--panel),rgba(15,30,64,.35));border:1px solid var(--line);border-radius:var(--radius);transition:border-color .3s,transform .3s}
+.service::before,.service::after{content:"";position:absolute;width:14px;height:14px;border:0 solid var(--cyan);opacity:0;transition:opacity .3s}
+.service::before{top:-1px;left:-1px;border-top-width:2px;border-left-width:2px}
+.service::after{bottom:-1px;right:-1px;border-bottom-width:2px;border-right-width:2px}
+.service:hover{border-color:var(--line-strong);transform:translateY(-3px)}
+.service:hover::before,.service:hover::after{opacity:1}
+.service-icon{width:44px;height:44px;display:grid;place-items:center;border:1px solid var(--line-strong);border-radius:var(--radius);color:var(--cyan)}
+.service-icon svg{width:22px;height:22px}
+.service p{color:var(--mute);font-size:.96rem}
+.ideal{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 0;padding:0;list-style:none}
+.ideal li{font:400 .72rem/1 var(--f-mono);letter-spacing:.04em;padding:6px 8px;border-radius:2px;background:rgba(150,182,224,.08);color:#C4D2E4}
+
+.next-up{margin-top:16px;display:grid;grid-template-columns:auto 1fr 1fr;gap:16px;align-items:stretch}
+.next-label{display:grid;align-content:center;gap:8px;padding:24px;border:1px dashed var(--line-strong);border-radius:var(--radius);min-width:0}
+.next-label strong{font:600 1.05rem/1.2 var(--f-display);font-stretch:110%}
+.next-label span{font:500 .68rem/1.3 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--mute)}
+.next-item{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start;padding:24px;border:1px dashed var(--line-strong);border-radius:var(--radius);min-width:0}
+.next-item svg{width:24px;height:24px;color:var(--metal-lo);margin-top:2px}
+.next-item h3{font-size:1.05rem}
+.next-item p{color:var(--mute);font-size:.93rem;margin-top:6px}
+
+/* Proceso */
+.process{list-style:none;margin:clamp(56px,8vw,96px) 0 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;counter-reset:step}
+.process li{position:relative;padding:28px 24px 0 0;border-top:1px solid var(--line-strong);counter-increment:step;display:grid;gap:10px;align-content:start}
+.process li::before{content:counter(step,decimal-leading-zero);font:500 .78rem/1 var(--f-mono);letter-spacing:.14em;color:var(--cyan)}
+.process li::after{content:"";position:absolute;top:-4px;left:0;width:7px;height:7px;background:var(--cyan);transform:rotate(45deg)}
+.process h3{font-size:1.05rem}
+.process p{color:var(--mute);font-size:.94rem}
+.process-title{font:500 .72rem/1 var(--f-mono);letter-spacing:.2em;text-transform:uppercase;color:var(--mute);margin-top:clamp(56px,8vw,96px)}
+.process-title + .process{margin-top:24px}
+
+/* Portafolio */
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
+.chip{font:500 .8rem/1 var(--f-body);padding:10px 16px;border-radius:999px;border:1px solid var(--line-strong);background:transparent;color:var(--mute);cursor:pointer;transition:all .2s}
+.chip:hover{color:var(--white);border-color:var(--mute)}
+.chip[aria-pressed="true"]{background:var(--white);border-color:var(--white);color:var(--ink)}
+.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:240px;grid-auto-flow:dense;gap:12px}
+.tile{position:relative;display:block;width:100%;height:100%;padding:0;border:0;border-radius:var(--radius);overflow:hidden;background:var(--deep);cursor:zoom-in;color:var(--white);text-align:left;font:inherit}
+.tile.wide{grid-column:span 2}
+.tile.tall{grid-row:span 2}
+.tile img,.tile video{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.7,.2,1)}
+.tile:hover img,.tile:hover .ph{transform:scale(1.04)}
+.ph{position:absolute;inset:0;display:grid;place-items:center;align-content:center;gap:10px;text-align:center;padding:20px;transition:transform .8s cubic-bezier(.2,.7,.2,1);
+  background:
+   repeating-radial-gradient(circle at 30% 120%,transparent 0 22px,rgba(34,211,238,.07) 22px 23px),
+   linear-gradient(150deg,#0F2147,#081129)}
+.ph svg{width:30px;height:30px;color:var(--cyan)}
+.ph-label{font:600 .98rem/1.25 var(--f-display);font-stretch:108%}
+.ph-spec{font:500 .66rem/1.3 var(--f-mono);letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.tile-cap{position:absolute;left:0;right:0;bottom:0;display:flex;justify-content:space-between;align-items:end;gap:12px;padding:40px 16px 14px;background:linear-gradient(0deg,rgba(5,11,24,.85),transparent);font:500 .7rem/1.3 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:#D6E4F5;opacity:0;transform:translateY(6px);transition:opacity .3s,transform .3s}
+.tile:hover .tile-cap,.tile:focus-visible .tile-cap{opacity:1;transform:none}
+.tile-cap b{font-weight:500;color:var(--cyan)}
+.tile:focus-visible{outline-offset:2px}
+.gallery-note{margin-top:20px;font-size:.88rem;color:var(--mute)}
+.gallery-empty{grid-column:1/-1;padding:40px;text-align:center;color:var(--mute);border:1px dashed var(--line-strong);border-radius:var(--radius)}
+
+/* Lightbox */
+.lightbox{width:min(1100px,calc(100vw - 32px));max-height:calc(100dvh - 32px);padding:0;border:1px solid var(--line-strong);border-radius:var(--radius);background:var(--ink);color:var(--white);overflow:hidden}
+.lightbox::backdrop{background:rgba(3,7,16,.88);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.lb-stage{position:relative;aspect-ratio:16/9;max-width:100%;max-height:calc(100dvh - 120px);background:var(--deep);display:grid;place-items:center}
+.lb-stage img,.lb-stage video{width:100%;height:100%;object-fit:contain}
+.lb-stage .ph{position:absolute}
+.lb-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px;border-top:1px solid var(--line)}
+.lb-title{font:500 .78rem/1.3 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mute);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lb-ctrls{display:flex;gap:8px;flex:none}
+.icon-btn{width:42px;height:42px;display:grid;place-items:center;border:1px solid var(--line-strong);border-radius:var(--radius);background:transparent;color:var(--white);cursor:pointer}
+.icon-btn:hover{border-color:var(--cyan);color:var(--cyan)}
+.icon-btn svg{width:18px;height:18px}
+
+/* Contacto */
+.contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(40px,6vw,88px);align-items:start}
+.contact-info{display:grid;gap:28px;min-width:0}
+.contact-list{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:0;border-top:1px solid var(--line)}
+.contact-list li{display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:center;padding:18px 0;border-bottom:1px solid var(--line);min-width:0}
+.contact-list svg{width:20px;height:20px;color:var(--cyan)}
+.c-label{display:block;font:500 .66rem/1 var(--f-mono);letter-spacing:.18em;text-transform:uppercase;color:var(--mute);margin-bottom:6px}
+.c-value{font-size:1.02rem;word-break:break-word;user-select:all}
+.c-value a{text-decoration:none}
+.c-value a:hover{color:var(--cyan)}
+.copy-btn{font:500 .72rem/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;padding:9px 12px;border:1px solid var(--line-strong);border-radius:var(--radius);background:transparent;color:var(--white);cursor:pointer;white-space:nowrap}
+.copy-btn:hover{border-color:var(--cyan);color:var(--cyan)}
+
+.quote{padding:clamp(24px,3.5vw,44px);background:var(--deep);border:1px solid var(--line);border-radius:var(--radius);min-width:0}
+.quote h3{font-size:1.4rem;margin-bottom:6px}
+.quote > p{color:var(--mute);font-size:.95rem;margin-bottom:28px}
+.form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.field{display:grid;gap:8px;min-width:0}
+.field.full{grid-column:1/-1}
+.field label{font:500 .68rem/1 var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:#C4D2E4}
+.field label .opt{color:var(--mute);letter-spacing:.06em;text-transform:none}
+.field input,.field select,.field textarea{width:100%;min-height:50px;padding:12px 14px;border-radius:var(--radius);border:1px solid var(--line-strong);background:var(--ink);color:var(--white);font:400 1rem/1.4 var(--f-body);transition:border-color .2s,box-shadow .2s}
+.field textarea{min-height:130px;resize:vertical}
+.field select{appearance:none;-webkit-appearance:none;background-image:linear-gradient(45deg,transparent 50%,var(--mute) 50%),linear-gradient(135deg,var(--mute) 50%,transparent 50%);background-position:calc(100% - 20px) 22px,calc(100% - 15px) 22px;background-size:5px 5px;background-repeat:no-repeat;padding-right:40px}
+.field input::placeholder,.field textarea::placeholder{color:#7A8AA4}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--cyan);box-shadow:0 0 0 3px var(--cyan-dim)}
+.field.invalid input,.field.invalid select,.field.invalid textarea{border-color:var(--danger)}
+.err{font-size:.82rem;color:var(--danger);min-height:0}
+.err:empty{display:none}
+.consent{grid-column:1/-1;display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:start;font-size:.88rem;color:var(--mute)}
+.consent input{width:20px;height:20px;margin:2px 0 0;accent-color:var(--cyan)}
+.consent a{color:var(--white)}
+.form-foot{grid-column:1/-1;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-top:6px}
+.form-foot small{color:var(--mute);font-size:.82rem;max-width:42ch}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+.result{display:grid;gap:16px}
+.result-head{display:flex;align-items:center;gap:12px}
+.result-head svg{width:26px;height:26px;color:var(--cyan);flex:none}
+.result pre{margin:0;padding:16px;max-height:240px;overflow:auto;white-space:pre-wrap;word-break:break-word;background:var(--ink);border:1px solid var(--line);border-radius:var(--radius);font:400 .84rem/1.55 var(--f-mono);color:#C4D2E4}
+.result-actions{display:flex;flex-wrap:wrap;gap:10px}
+.result p{color:var(--mute);font-size:.94rem}
+
+/* Pie */
+.site-footer{border-top:1px solid var(--line);padding-block:56px calc(36px + env(safe-area-inset-bottom,0px))}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+.foot-grid p{color:var(--mute);font-size:.92rem;max-width:38ch;margin-top:16px}
+.foot-col h4{margin:0 0 14px;font:500 .68rem/1 var(--f-mono);letter-spacing:.2em;text-transform:uppercase;color:var(--mute)}
+.foot-col ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.foot-col a{text-decoration:none;color:#D6E4F5;font-size:.95rem}
+.foot-col a:hover{color:var(--cyan)}
+.foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font:400 .74rem/1.4 var(--f-mono);letter-spacing:.08em;color:var(--mute)}
+
+/* Revelado al hacer scroll (mejora progresiva: sin soporte, todo queda visible) */
+@supports (animation-timeline: view()){
+  @media (prefers-reduced-motion:no-preference){
+    .reveal{animation:rise linear both;animation-timeline:view();animation-range:entry 0% entry 45%}
+  }
+}
+@keyframes rise{from{opacity:.15;transform:translateY(32px)}to{opacity:1;transform:none}}
+
+/* Responsive */
+@media (max-width:1024px){
+  .services{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .principles{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .process{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:36px}
+  .next-up{grid-template-columns:1fr 1fr}
+  .next-label{grid-column:1/-1}
+  .gallery{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:220px}
+}
+@media (max-width:860px){
+  .about-grid,.contact-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .foot-grid > :first-child{grid-column:1/-1}
+}
+@media (max-width:620px){
+  :root{--header-h:64px}
+  .services,.principles,.process,.next-up,.form-grid{grid-template-columns:1fr}
+  .process li{padding-right:0}
+  .gallery{grid-template-columns:1fr;grid-auto-rows:auto}
+  .tile,.tile.wide,.tile.tall{grid-column:auto;grid-row:auto;aspect-ratio:4/3;height:auto}
+  .tile.tall{aspect-ratio:4/5}
+  .tile-cap{opacity:1;transform:none}
+  .hero-actions .btn{flex:1 1 100%}
+  .contact-list li{grid-template-columns:auto 1fr}
+  .contact-list .copy-btn{grid-column:2;justify-self:start}
+  .hero-meta{gap:8px 18px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
+
+/* ===== v2: ajustes de responsive, altímetro y medios reales ===== */
+.foot-col a,.c-value{overflow-wrap:anywhere}
+@media (max-width:620px){.foot-grid{grid-template-columns:1fr}.foot-grid > :first-child{grid-column:auto}}
+.altimeter{opacity:0;visibility:hidden;transition:opacity .4s,visibility .4s}
+.altimeter.on{opacity:1;visibility:visible}
+.tile > img + .ph,.tile > video + .ph{display:none}
+.lb-stage iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.lb-ext{position:absolute;left:50%;bottom:24px;transform:translateX(-50%)}
+/* v6: accesibilidad */
+.skip-link{position:fixed;z-index:100;top:calc(8px + env(safe-area-inset-top,0px));left:max(16px,env(safe-area-inset-left,0px));padding:12px 18px;border-radius:var(--radius);background:var(--cyan);color:var(--ink);font-weight:600;text-decoration:none;transform:translateY(-200%);transition:transform .2s}
+.skip-link:focus{transform:none}
+main:focus{outline:none}
+.field input,.field select,.field textarea{border-color:rgba(150,182,224,.55)}
+.consent input:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+.tile:focus-visible{outline:2px solid var(--cyan);outline-offset:3px}
+#quote-body > h3{margin-bottom:6px}
+#quote-body > p{color:var(--mute);font-size:.95rem;margin-bottom:28px}
+@media (min-width:621px){.field > label{min-height:2.7em;display:flex;flex-wrap:wrap;align-items:flex-end;gap:2px .5em;line-height:1.35}}
+
+/* ===== v4: Soluciones ===== */
+.solutions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.solution{display:flex;flex-direction:column;gap:14px}
+.solution h3{font-size:1.4rem}
+.sol-kicker{font:500 .7rem/1 var(--f-mono);letter-spacing:.22em;text-transform:uppercase;color:var(--cyan);margin-top:10px}
+.incl{list-style:none;margin:4px 0 0;padding:0;display:grid;gap:10px}
+.incl li{display:grid;grid-template-columns:12px 1fr;gap:12px;align-items:baseline;font-size:.95rem;color:#D6E4F5}
+.incl li::before{content:"";width:6px;height:6px;border:1px solid var(--cyan);transform:rotate(45deg) translateY(-2px)}
+.sol-for{margin-top:auto!important;padding-top:18px;border-top:1px solid var(--line);font-size:.9rem;color:var(--mute)}
+.sol-for span{display:block;font:500 .64rem/1 var(--f-mono);letter-spacing:.2em;text-transform:uppercase;color:#C4D2E4;margin-bottom:8px}
+.sectors{list-style:none;margin:24px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 32px;border-top:1px solid var(--line-strong)}
+.sectors li{display:grid;grid-template-columns:24px 1fr;gap:16px;align-items:start;padding:24px 0;border-bottom:1px solid var(--line)}
+.sectors svg{width:22px;height:22px;color:var(--cyan);margin-top:2px}
+.sectors h3{font-size:1.02rem}
+.sectors p{color:var(--mute);font-size:.92rem;margin-top:4px}
+.sol-cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px 32px;margin-top:clamp(56px,8vw,88px);padding:clamp(24px,3vw,36px);border:1px solid rgba(34,211,238,.35);border-radius:var(--radius);background:linear-gradient(100deg,var(--cyan-dim),rgba(34,211,238,0) 70%)}
+.sol-cta strong{display:block;font:600 clamp(1.2rem,1rem + .8vw,1.6rem)/1.2 var(--f-display);font-stretch:108%}
+.sol-cta p{color:var(--mute);margin-top:6px}
+
+/* ===== v4: Portafolio curado ===== */
+.gallery{grid-auto-rows:clamp(200px,19vw,260px)}
+.tile.feature{grid-column:span 2;grid-row:span 2}
+.tile .ph{background:linear-gradient(150deg,#0F2147,#081129);padding:0;display:block}
+.art{position:absolute;inset:0;width:100%;height:100%;display:block}
+.tile-hud{position:absolute;inset:14px;pointer-events:none}
+.tile-hud::before,.tile-hud::after{content:"";position:absolute;width:14px;height:14px;border:0 solid rgba(214,228,245,.55);transition:border-color .3s}
+.tile-hud::before{top:0;left:0;border-top-width:1px;border-left-width:1px}
+.tile-hud::after{bottom:0;right:0;border-bottom-width:1px;border-right-width:1px}
+.tile:hover .tile-hud::before,.tile:hover .tile-hud::after{border-color:var(--cyan)}
+.tile-info{position:absolute;left:0;right:0;bottom:0;display:grid;gap:6px;padding:64px 24px 22px;background:linear-gradient(0deg,rgba(5,11,24,.94) 0%,rgba(5,11,24,.6) 55%,rgba(5,11,24,0) 100%)}
+.tile-kicker{font:500 .66rem/1 var(--f-mono);letter-spacing:.2em;text-transform:uppercase;color:var(--cyan)}
+.tile-title{font:600 1.12rem/1.2 var(--f-display);font-stretch:108%;color:var(--white);text-wrap:balance}
+.tile.feature .tile-title{font-size:clamp(1.5rem,1.1rem + 1.3vw,2.2rem);letter-spacing:-.01em}
+.tile-desc{font-size:.88rem;line-height:1.5;color:var(--mute);max-height:0;opacity:0;overflow:hidden;transition:max-height .4s,opacity .4s}
+.tile:hover .tile-desc,.tile:focus-visible .tile-desc,.tile.feature .tile-desc{max-height:5em;opacity:1}
+.tile.feature .tile-desc{max-width:44ch;font-size:.95rem}
+.tile[data-video]::before{content:"";position:absolute;z-index:1;top:22px;right:22px;width:46px;height:46px;border-radius:50%;border:1px solid rgba(238,242,247,.6);background:rgba(5,11,24,.45) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M9 7l9 5-9 5z' fill='%23EEF2F7'/%3E%3C/svg%3E") 55% 50%/18px no-repeat}
+.gallery-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;margin-top:28px}
+.gallery-foot p{color:var(--mute);font-size:.92rem}
+.gallery-foot a:not(.btn){color:var(--white)}
+.lb-stage.is-art{aspect-ratio:16/9}
+.lb-art{position:absolute;inset:0}
+.lb-info{position:absolute;left:0;right:0;bottom:0;display:grid;gap:10px;justify-items:start;padding:72px clamp(20px,3vw,40px) clamp(20px,3vw,36px);background:linear-gradient(0deg,rgba(5,11,24,.95),rgba(5,11,24,0))}
+.lb-info strong{font:600 clamp(1.3rem,1rem + 1.4vw,2.2rem)/1.15 var(--f-display);font-stretch:108%}
+.lb-info p{color:var(--mute);max-width:52ch}
+.lb-info .btn{margin-top:6px}
+@media (max-width:1024px){
+  .solutions{grid-template-columns:1fr 1fr}
+  .solutions > :last-child{grid-column:1/-1}
+  .sectors{grid-template-columns:1fr 1fr}
+}
+@media (max-width:620px){
+  .solutions,.sectors{grid-template-columns:1fr}
+  .gallery{grid-auto-rows:auto}
+  .tile.feature{grid-column:auto;grid-row:auto;aspect-ratio:4/5;height:auto}
+  .tile .tile-desc{max-height:5em;opacity:1}
+  .lb-stage.is-art{aspect-ratio:4/5}
+  .gallery-foot .btn{width:100%}
+}
+.areas .node{border-color:var(--cyan)}
+.areas .node::after{background:var(--cyan);box-shadow:0 0 10px var(--cyan)}
+</style>
+</head>
+<body>
+
+
+<!-- Degradado metálico compartido por los logotipos SVG -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EEF2F7"/><stop offset="1" stop-color="#7E8CA2"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header class="site-header" id="header">
+  <nav class="wrap nav" aria-label="Principal">
+    <a class="brand" href="#inicio" aria-label="AERNOXA SOLUTIONS, ir al inicio">
+      <img class="brand-logo-img" src="assets/img/logo-aernoxa-oficial.png" alt="" width="792" height="516" decoding="async">
+      <span class="brand-word"><span class="brand-name metal">AERNOXA</span><span class="brand-sub">SOLUTIONS</span></span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menú">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#servicios">Soluciones</a></li>
+      <li><a href="#portafolio">Portafolio</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li><a class="btn btn-primary" href="#cotizar">Cotizar</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="altimeter" aria-hidden="true">
+  <span>ALT</span>
+  <div class="alt-track"><span class="alt-bug" id="alt-bug"></span></div>
+  <span class="alt-read tabular"><b id="alt-val">120</b> m</span>
+</div>
+
+<main id="contenido" tabindex="-1">
+
+  <!-- 1. INICIO -->
+  <section class="hero" id="inicio" aria-labelledby="hero-title">
+    <div class="hero-media">
+      <!-- VIDEO DE PORTADA: cuando tengas tu toma aérea (MP4, 10–20 s, sin audio, < 10 MB), descomenta:
+      <video autoplay muted loop playsinline preload="metadata" poster="assets/img/portada/portada.jpg">
+        <source src="assets/video/portada.mp4" type="video/mp4">
+      </video>
+      -->
+      <canvas id="terrain" aria-hidden="true"></canvas>
+    </div>
+    <div class="hero-shade"></div>
+
+    <div class="hud" aria-hidden="true">
+      <span class="hud-corner tl"></span><span class="hud-corner tr"></span>
+      <span class="hud-corner bl"></span><span class="hud-corner br"></span>
+      <div class="hud-read tl"><span class="rec">REC</span><span class="tabular" id="timecode">00:00:00:00</span></div>
+      <div class="hud-read tr"><span class="tabular">4.7110° N &nbsp;74.0721° O</span></div>
+      <div class="hud-read br"><span>Bogotá · 2.640 m s. n. m.</span><span>Rumbo 045° · Plan de vuelo</span></div>
+      <div class="crosshair"></div>
+    </div>
+
+    <div class="wrap hero-content">
+      <div class="hero-inner">
+        <span class="eyebrow">Soluciones aéreas y visuales · Bogotá, Colombia</span>
+        <h1 id="hero-title">Una nueva perspectiva para <em class="metal">impulsar tus proyectos.</em></h1>
+        <p class="lead">Integramos soluciones aéreas, producción audiovisual y documentación visual para comunicar ideas, mostrar avances y aportar contexto a cada proyecto.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#cotizar">Hablemos de tu proyecto
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn-ghost" href="#servicios">Explorar soluciones</a>
+        </div>
+        <div class="hero-meta">
+          <span>Producción audiovisual</span><span>Documentación y seguimiento</span><span>Aplicaciones técnicas</span>
+        </div>
+      </div>
+    </div>
+    <a class="scroll-cue" href="#nosotros" aria-label="Ir a Nosotros"><span>DESCENDER</span><i></i></a>
+  </section>
+
+  <!-- 2. QUIÉNES SOMOS -->
+  <section class="band" id="nosotros" aria-labelledby="about-title">
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <span class="eyebrow">Quiénes somos</span>
+          <h2 id="about-title">Tecnología que transforma <span class="accent">perspectivas</span>.</h2>
+          <p><strong>AERNOXA SOLUTIONS</strong> es una empresa colombiana de tecnología con sede en Bogotá. Integramos soluciones aéreas, producción audiovisual y conocimiento técnico para ayudar a empresas, proyectos e instituciones a ver, entender y comunicar mejor lo que hacen.</p>
+          <p>Partimos de una convicción: la forma en que se observa un proyecto cambia las decisiones que se toman sobre él. Por eso combinamos captura aérea, criterio visual y procesos rigurosos para convertir cada operación en contenido con valor estratégico y en información útil.</p>
+          <p>Nuestra visión es crecer junto a nuestros clientes y llevar estas herramientas a sectores como la construcción, la infraestructura, el agro, el turismo y la industria, con soluciones que evolucionan al ritmo de la tecnología.</p>
+        </div>
+
+        <div class="reveal">
+          <p class="route-title">Áreas de solución</p>
+          <ul class="route areas">
+            <li><span class="node"></span>
+              <div><h3>Producción audiovisual</h3><p>Fotografía y video aéreo con dirección visual, edición y postproducción para marcas, proyectos y eventos.</p></div></li>
+            <li><span class="node"></span>
+              <div><h3>Soluciones aéreas</h3><p>Captura aérea planificada que aporta puntos de vista, escala y contexto difíciles de obtener desde tierra.</p></div></li>
+            <li><span class="node"></span>
+              <div><h3>Aplicaciones técnicas</h3><p>La imagen aérea como apoyo para documentar, registrar y analizar visualmente obras, terrenos e infraestructura.</p></div></li>
+            <li><span class="node"></span>
+              <div><h3>Tecnología e innovación</h3><p>Exploración constante de nuevas herramientas y procesos para crear soluciones a la medida de cada sector.</p></div></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="principles">
+        <div class="principle reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 20l6-16 3 8 3-5 6 13"/><circle cx="9" cy="4" r="1.2"/></svg>
+          <h3>Planeación rigurosa</h3>
+          <p>Antes de cada operación aérea revisamos la zona, el clima, la luz y los permisos que requiere el lugar.</p>
+        </div>
+        <div class="principle reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>
+          <h3>Seguridad primero</h3>
+          <p>Verificamos el equipo y el entorno en cada operación para operar con criterio y sin improvisar.</p>
+        </div>
+        <div class="principle reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M3 9h18M9 5v14"/></svg>
+          <h3>Imagen con intención</h3>
+          <p>Composición, movimiento y color pensados para mostrar lo que hace único a tu proyecto.</p>
+        </div>
+        <div class="principle reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3v12M7 10l5 5 5-5"/><path d="M4 17v3h16v-3"/></svg>
+          <h3>Entrega lista para usar</h3>
+          <p>Archivos editados en los formatos que necesitas: web, redes sociales, presentaciones o pantallas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. SOLUCIONES (antes «Servicios»; se conserva el id #servicios) -->
+  <section class="band band-deep" id="servicios" aria-labelledby="services-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Soluciones</span>
+        <h2 id="services-title">Soluciones aéreas y visuales para cada etapa de un proyecto.</h2>
+        <p class="lead">Unimos tecnología aérea, producción audiovisual y criterio técnico para resolver una necesidad concreta: mostrar, documentar o entender mejor un proyecto. Cada alcance se diseña a la medida de su objetivo.</p>
+      </div>
+
+      <div class="solutions">
+        <article class="service solution reveal">
+          <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="6" width="13" height="12" rx="1.5"/><path d="M16 10l5-3v10l-5-3"/></svg></span>
+          <span class="sol-kicker">Comunicar</span>
+          <h3>Producción audiovisual aérea</h3>
+          <p>Fotografía y video cinematográfico que muestran la escala, el entorno y el carácter de un proyecto o una marca.</p>
+          <ul class="incl">
+            <li>Dirección visual y plan de tomas</li>
+            <li>Fotografía y video aéreo</li>
+            <li>Edición, color y musicalización con licencia</li>
+            <li>Versiones para web, redes y pantallas</li>
+          </ul>
+          <p class="sol-for"><span>Para</span>Marcas, agencias, proyectos inmobiliarios y eventos</p>
+        </article>
+        <article class="service solution reveal">
+          <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="16" rx="1.5"/><path d="M3 9h18M8 4v5M16 4v5"/><path d="M7 14h3M7 17h6"/></svg></span>
+          <span class="sol-kicker">Documentar</span>
+          <h3>Documentación y seguimiento</h3>
+          <p>Registro aéreo de obras, terrenos y proyectos desde puntos de vista repetibles, para comparar el avance y comunicarlo con claridad.</p>
+          <ul class="incl">
+            <li>Registro periódico de avance</li>
+            <li>Vistas generales de terreno y entorno</li>
+            <li>Material organizado por fecha</li>
+            <li>Imágenes para informes y presentaciones</li>
+          </ul>
+          <p class="sol-for"><span>Para</span>Constructoras, interventorías, propietarios e inversionistas</p>
+        </article>
+        <article class="service solution reveal">
+          <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/><path d="M7.5 12l2-2.5 2 1.5 2-3"/></svg></span>
+          <span class="sol-kicker">Analizar</span>
+          <h3>Aplicaciones técnicas a la medida</h3>
+          <p>La imagen aérea como herramienta de apoyo para observar terrenos, infraestructura y activos de difícil acceso. Definimos el alcance con cada cliente según su necesidad.</p>
+          <ul class="incl">
+            <li>Diagnóstico de la necesidad</li>
+            <li>Plan de captura según el objetivo</li>
+            <li>Registro visual de detalle</li>
+            <li>Entrega de material para el equipo técnico del cliente</li>
+          </ul>
+          <p class="sol-for"><span>Para</span>Ingeniería, industria, agro y gestión de activos</p>
+        </article>
+      </div>
+
+      <p class="process-title reveal">Sectores de aplicación</p>
+      <ul class="sectors">
+        <li class="reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21h18M5 21V9l7-5 7 5v12"/><path d="M9 21v-6h6v6"/></svg><div><h3>Inmobiliario y arquitectura</h3><p>Proyectos, lotes y desarrollos en su contexto real.</p></div></li>
+        <li class="reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 21V5h7M4 5h14v4"/><path d="M18 9v5M15 14h6M8 21v-8h6v8M2 21h20"/></svg><div><h3>Construcción e infraestructura</h3><p>Avance de obra y vistas generales de proyectos.</p></div></li>
+        <li class="reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 10v4l11 5V5z"/><path d="M15 9a3 3 0 0 1 0 6M7 14l1.5 5h3l-1.2-4"/></svg><div><h3>Marcas y publicidad</h3><p>Piezas audiovisuales con impacto para campañas y redes.</p></div></li>
+        <li class="reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l2.4 5 5.6.8-4 3.9 1 5.5L12 15.6 7 18.2l1-5.5-4-3.9 5.6-.8z"/></svg><div><h3>Eventos y experiencias</h3><p>Cobertura aérea de eventos en espacios abiertos.</p></div></li>
+        <li class="reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 20l6-9 4 5 3-4 5 8z"/><circle cx="17" cy="6" r="2"/></svg><div><h3>Turismo y hotelería</h3><p>Destinos, hoteles y paisajes con perspectiva aérea.</p></div></li>
+        <li class="reveal"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 18c3-2 6-2 9 0s6 2 9 0M3 13c3-2 6-2 9 0s6 2 9 0"/><path d="M12 9V3M9 6c1-2 5-2 6 0"/></svg><div><h3>Agro y territorio</h3><p>Vistas amplias de predios, cultivos y paisaje.</p></div></li>
+      </ul>
+
+      <p class="process-title reveal">Cómo trabajamos</p>
+      <ol class="process">
+        <li class="reveal"><h3>Entendemos el objetivo</h3><p>Qué quieres mostrar, documentar o analizar, y dónde se usará el resultado.</p></li>
+        <li class="reveal"><h3>Diseñamos la solución</h3><p>Revisamos zona, permisos y condiciones, y te enviamos una propuesta con alcance claro.</p></li>
+        <li class="reveal"><h3>Capturamos en sitio</h3><p>Ejecutamos el plan con verificación de seguridad en cada operación.</p></li>
+        <li class="reveal"><h3>Procesamos y entregamos</h3><p>Material editado y organizado en los formatos acordados.</p></li>
+      </ol>
+
+      <div class="sol-cta reveal">
+        <div><strong>¿Tu necesidad no encaja en una categoría?</strong><p>Cuéntanos el objetivo y diseñamos la solución contigo.</p></div>
+        <a class="btn btn-primary" href="#cotizar">Hablemos de tu proyecto
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. PORTAFOLIO -->
+  <section class="band" id="portafolio" aria-labelledby="portfolio-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Portafolio</span>
+        <h2 id="portfolio-title">Cada proyecto tiene su propio lenguaje visual.</h2>
+        <p class="lead">Así abordamos cada línea de trabajo: con un plan de tomas, una intención estética y un uso final claro.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filtrar portafolio">
+        <button class="chip" type="button" data-filter="todo" aria-pressed="true">Todo</button>
+        <button class="chip" type="button" data-filter="audiovisual" aria-pressed="false">Audiovisual</button>
+        <button class="chip" type="button" data-filter="inmobiliario" aria-pressed="false">Inmobiliario</button>
+        <button class="chip" type="button" data-filter="obras" aria-pressed="false">Construcción</button>
+        <button class="chip" type="button" data-filter="eventos" aria-pressed="false">Eventos</button>
+        <button class="chip" type="button" data-filter="territorio" aria-pressed="false">Territorio</button>
+      </div>
+
+      <!--
+        CÓMO AGREGAR TUS FOTOS Y VIDEOS (guía completa en assets/MEDIOS.md)
+        Cada recuadro tiene un identificador: data-id="p01" … "p06". Mientras no tenga material real,
+        muestra una portada gráfica (canvas) acorde a su línea de trabajo.
+        · FOTO: agrega una línea <img> justo ANTES del <div class="ph"> (no borres el div):
+            <img src="assets/img/portafolio/p02.webp" alt="Descripción de la toma" loading="lazy" width="1600" height="1200">
+          Si la imagen no carga, vuelve a aparecer la portada gráfica automáticamente.
+        · VIDEO PROPIO: agrega data-video="assets/video/portafolio/p01.mp4" al <button> y una <img> de portada como arriba.
+        · VIDEO EN YOUTUBE O VIMEO: data-video="https://www.youtube.com/watch?v=XXXX" (se reproduce dentro del visor).
+        · Textos: edita tile-kicker (categoría), tile-title (título) y tile-desc (descripción).
+        · data-cat: audiovisual | inmobiliario | obras | eventos | territorio
+        · data-servicio: opción que se preselecciona en el formulario al pulsar «Cotizar un proyecto así».
+        · Tamaños: class="tile feature" (destacado, 2×2) · class="tile" (normal)
+      -->
+      <div class="gallery" id="gallery">
+        <button data-id="p01" class="tile feature" type="button" aria-haspopup="dialog" data-cat="audiovisual" data-tipo="video" data-scene="terrain" data-servicio="Producción audiovisual aérea" data-title="Producción audiovisual · Historias contadas desde el aire">
+          <div class="ph"><canvas class="art" aria-hidden="true"></canvas></div>
+          <span class="tile-hud" aria-hidden="true"></span>
+          <span class="tile-info"><span class="tile-kicker">Producción audiovisual</span><span class="tile-title">Historias contadas desde el aire</span><span class="tile-desc">Tomas cinematográficas con movimientos planeados, color y ritmo de marca.</span></span>
+        </button>
+        <button data-id="p02" class="tile" type="button" aria-haspopup="dialog" data-cat="inmobiliario" data-tipo="foto" data-scene="city" data-servicio="Inmobiliario y arquitectura" data-title="Inmobiliario · El proyecto en su contexto">
+          <div class="ph"><canvas class="art" aria-hidden="true"></canvas></div>
+          <span class="tile-hud" aria-hidden="true"></span>
+          <span class="tile-info"><span class="tile-kicker">Inmobiliario</span><span class="tile-title">El proyecto en su contexto</span><span class="tile-desc">Ubicación, vías, entorno y vistas reales en una sola imagen.</span></span>
+        </button>
+        <button data-id="p03" class="tile" type="button" aria-haspopup="dialog" data-cat="obras" data-tipo="foto" data-scene="site" data-servicio="Documentación y seguimiento de obra" data-title="Construcción · El avance, visto completo">
+          <div class="ph"><canvas class="art" aria-hidden="true"></canvas></div>
+          <span class="tile-hud" aria-hidden="true"></span>
+          <span class="tile-info"><span class="tile-kicker">Construcción</span><span class="tile-title">El avance, visto completo</span><span class="tile-desc">Registros periódicos desde los mismos puntos de vista.</span></span>
+        </button>
+        <button data-id="p04" class="tile" type="button" aria-haspopup="dialog" data-cat="eventos" data-tipo="video" data-scene="crowd" data-servicio="Eventos y marcas" data-title="Eventos · La escala de un momento">
+          <div class="ph"><canvas class="art" aria-hidden="true"></canvas></div>
+          <span class="tile-hud" aria-hidden="true"></span>
+          <span class="tile-info"><span class="tile-kicker">Eventos</span><span class="tile-title">La escala de un momento</span><span class="tile-desc">Planos cenitales y aperturas que muestran la magnitud del evento.</span></span>
+        </button>
+        <button data-id="p05" class="tile" type="button" aria-haspopup="dialog" data-cat="territorio" data-tipo="foto" data-scene="contour" data-servicio="Turismo y territorio" data-title="Territorio · Paisaje y predios en perspectiva">
+          <div class="ph"><canvas class="art" aria-hidden="true"></canvas></div>
+          <span class="tile-hud" aria-hidden="true"></span>
+          <span class="tile-info"><span class="tile-kicker">Territorio</span><span class="tile-title">Paisaje y predios en perspectiva</span><span class="tile-desc">Vistas amplias de terrenos, cultivos y destinos.</span></span>
+        </button>
+        <button data-id="p06" class="tile" type="button" aria-haspopup="dialog" data-cat="inmobiliario" data-tipo="foto" data-scene="facade" data-servicio="Inmobiliario y arquitectura" data-title="Arquitectura · Volumen, luz y materialidad">
+          <div class="ph"><canvas class="art" aria-hidden="true"></canvas></div>
+          <span class="tile-hud" aria-hidden="true"></span>
+          <span class="tile-info"><span class="tile-kicker">Arquitectura</span><span class="tile-title">Volumen, luz y materialidad</span><span class="tile-desc">Fachadas y cubiertas desde ángulos imposibles en tierra.</span></span>
+        </button>
+      </div>
+      <div class="gallery-foot reveal">
+        <p>Sigue nuestras producciones en Instagram: <a href="https://www.instagram.com/aernoxasolutions/" target="_blank" rel="noopener">@aernoxasolutions</a></p>
+        <a class="btn btn-ghost" href="#cotizar">Cotiza tu producción</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. COTIZACIONES Y CONTACTO -->
+  <section class="band band-deep" id="contacto" aria-labelledby="contact-title">
+    <div class="wrap contact-grid">
+      <div class="contact-info reveal">
+        <span class="eyebrow">Cotizaciones y contacto</span>
+        <h2 id="contact-title">Hablemos de tu próximo proyecto.</h2>
+        <p class="lead">Cuéntanos si necesitas comunicar, documentar o analizar un proyecto, y preparamos una propuesta a la medida. Entre más contexto compartas, más precisa será.</p>
+        <ul class="contact-list">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="M3.5 6l8.5 7 8.5-7"/></svg>
+            <div><span class="c-label">Correo</span><span class="c-value"><a href="mailto:aernoxasolutions@outlook.com" id="email-text">aernoxasolutions@outlook.com</a></span></div>
+            <button class="copy-btn" type="button" data-copy="aernoxasolutions@outlook.com">Copiar</button>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="4"/><path d="M16 12v1.5a2.5 2.5 0 0 0 5 0V12a9 9 0 1 0-3.5 7.1"/></svg>
+            <div><span class="c-label">Instagram</span><span class="c-value"><a href="https://www.instagram.com/aernoxasolutions/" target="_blank" rel="noopener">@aernoxasolutions</a></span></div>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
+            <div><span class="c-label">Ubicación</span><span class="c-value">Bogotá, Colombia</span></div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="quote reveal" id="cotizar">
+        <div id="quote-body">
+          <h3>Solicita una propuesta</h3>
+          <p>Los campos opcionales nos ayudan a definir mejor el alcance y el valor.</p>
+          <form id="quote-form" novalidate>
+            <div class="form-grid">
+              <div class="field">
+                <label for="f-nombre">Nombre</label>
+                <input id="f-nombre" name="nombre" type="text" autocomplete="name" required placeholder="Tu nombre o empresa">
+                <span class="err" id="e-nombre"></span>
+              </div>
+              <div class="field">
+                <label for="f-correo">Correo</label>
+                <input id="f-correo" name="correo" type="email" autocomplete="email" required placeholder="nombre@correo.com">
+                <span class="err" id="e-correo"></span>
+              </div>
+              <div class="field">
+                <label for="f-telefono">Teléfono / WhatsApp <span class="opt">(opcional)</span></label>
+                <input id="f-telefono" name="telefono" type="tel" autocomplete="tel" placeholder="+57 300 000 0000">
+              </div>
+              <div class="field">
+                <label for="f-servicio">Solución de interés</label>
+                <select id="f-servicio" name="servicio" required>
+                  <option value="">Elige una opción</option>
+                  <option>Producción audiovisual aérea</option>
+                  <option>Inmobiliario y arquitectura</option>
+                  <option>Documentación y seguimiento de obra</option>
+                  <option>Eventos y marcas</option>
+                  <option>Turismo y territorio</option>
+                  <option>Aplicación técnica a la medida</option>
+                  <option>Otro</option>
+                </select>
+                <span class="err" id="e-servicio"></span>
+              </div>
+              <div class="field">
+                <label for="f-fecha">Fecha estimada <span class="opt">(opcional)</span></label>
+                <input id="f-fecha" name="fecha" type="date">
+              </div>
+              <div class="field">
+                <label for="f-ubicacion">Ubicación del proyecto <span class="opt">(opcional)</span></label>
+                <input id="f-ubicacion" name="ubicacion" type="text" placeholder="Ej.: Chía, Cundinamarca">
+              </div>
+              <div class="field full">
+                <label for="f-mensaje">Cuéntanos tu proyecto</label>
+                <textarea id="f-mensaje" name="mensaje" required placeholder="Qué necesitas comunicar, documentar o analizar, el alcance aproximado y cómo usarás el resultado (redes, web, informes, presentaciones…)"></textarea>
+                <span class="err" id="e-mensaje"></span>
+              </div>
+              <div class="hp" aria-hidden="true"><label for="f-web">No llenar</label><input id="f-web" name="_gotcha" type="text" tabindex="-1" autocomplete="off"></div>
+              <label class="consent" for="f-datos">
+                <input id="f-datos" name="autoriza_datos" type="checkbox" required aria-describedby="e-datos">
+                <span>Autorizo a AERNOXA SOLUTIONS a usar los datos de este formulario solo para responder mi solicitud y preparar la propuesta.</span>
+                <!-- PENDIENTE ANTES DE PUBLICAR: política formal de tratamiento de datos (Ley 1581 de 2012).
+                     Cuando exista, enlázala en este texto. -->
+              </label>
+              <span class="err" id="e-datos" style="grid-column:1/-1"></span>
+              <div class="form-foot">
+                <small id="form-hint">Al continuar se prepara un correo con tu solicitud dirigido a aernoxasolutions@outlook.com.</small>
+                <button class="btn btn-primary" type="submit" id="f-submit">Preparar solicitud</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="result" id="form-result" hidden aria-live="polite">
+          <div class="result-head">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.7 2.7L16 9.5"/></svg>
+            <h3 id="result-title">Tu solicitud está lista</h3>
+          </div>
+          <p id="result-text">Ábrela en tu correo para enviarla, o copia el texto y envíalo a <strong>aernoxasolutions@outlook.com</strong>.</p>
+          <pre id="result-msg"></pre>
+          <div class="result-actions">
+            <a class="btn btn-primary" id="result-mail" href="#">Abrir en mi correo</a>
+            <button class="btn btn-ghost" type="button" id="result-copy">Copiar mensaje</button>
+            <button class="btn btn-ghost" type="button" id="result-back">Editar solicitud</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- 6. PIE Y REDES -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#inicio" aria-label="AERNOXA SOLUTIONS, ir al inicio">
+          <img class="brand-logo-img" src="assets/img/logo-aernoxa-oficial.png" alt="" width="792" height="516" decoding="async">
+          <span class="brand-word"><span class="brand-name metal">AERNOXA</span><span class="brand-sub">SOLUTIONS</span></span>
+        </a>
+        <p>Soluciones aéreas, producción audiovisual y documentación visual. Bogotá, Colombia.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Navegación</h4>
+        <ul>
+          <li><a href="#nosotros">Quiénes somos</a></li>
+          <li><a href="#servicios">Soluciones</a></li>
+          <li><a href="#portafolio">Portafolio</a></li>
+          <li><a href="#cotizar">Cotizar</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Redes y contacto</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/aernoxasolutions/" target="_blank" rel="noopener">Instagram · @aernoxasolutions</a></li>
+          <li><a href="mailto:aernoxasolutions@outlook.com">aernoxasolutions@outlook.com</a></li>
+          <!-- Agrega aquí más redes cuando las tengas (TikTok, YouTube, LinkedIn, WhatsApp) -->
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year">2026</span> AERNOXA SOLUTIONS. Todos los derechos reservados.</span>
+      <span class="tabular">4.7110° N · 74.0721° O</span>
+    </div>
+  </div>
+</footer>
+
+<dialog class="lightbox" id="lightbox" aria-labelledby="lb-title">
+  <div class="lb-stage" id="lb-stage"></div>
+  <div class="lb-bar">
+    <span class="lb-title" id="lb-title"></span>
+    <div class="lb-ctrls">
+      <button class="icon-btn" type="button" id="lb-prev" aria-label="Anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M15 6l-6 6 6 6"/></svg></button>
+      <button class="icon-btn" type="button" id="lb-next" aria-label="Siguiente"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 6l6 6-6 6"/></svg></button>
+      <button class="icon-btn" type="button" id="lb-close" aria-label="Cerrar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+/* ===== Configuración ===== */
+const CONFIG = {
+  correo: 'aernoxasolutions@outlook.com',
+  // Para recibir el formulario directamente en tu correo, crea un formulario gratuito en
+  // https://formspree.io y pega aquí su URL, p. ej. 'https://formspree.io/f/abcdwxyz'
+  formEndpoint: ''
+};
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ===== Encabezado y menú ===== */
+(() => {
+  const header = document.getElementById('header');
+  const toggle = document.getElementById('nav-toggle');
+  const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 24);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+  const setOpen = (open) => {
+    header.classList.toggle('open', open);
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');
+  };
+  toggle.addEventListener('click', () => setOpen(!header.classList.contains('open')));
+  document.querySelectorAll('#nav-links a').forEach(a => a.addEventListener('click', () => setOpen(false)));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && header.classList.contains('open')) { setOpen(false); toggle.focus(); } });
+
+  // Resalta la sección activa en el menú
+  const links = [...document.querySelectorAll('#nav-links a:not(.btn)')];
+  const map = new Map(links.map(a => [a.getAttribute('href').slice(1), a]));
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver(entries => {
+      entries.forEach(en => {
+        if (en.isIntersecting) {
+          links.forEach(l => l.removeAttribute('aria-current'));
+          const l = map.get(en.target.id); if (l) l.setAttribute('aria-current', 'true');
+        }
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    map.forEach((_, id) => { const s = document.getElementById(id); if (s) io.observe(s); });
+  }
+})();
+
+/* ===== Portada: terreno en vuelo (canvas) ===== */
+(() => {
+  const hero = document.getElementById('inicio');
+  const heroVideo = hero.querySelector('video');
+  if (heroVideo) {
+    // Hay video real: se oculta la animación. Si el archivo falta o falla, vuelve la animación.
+    hero.classList.add('has-video');
+    if (reduceMotion) { heroVideo.removeAttribute('autoplay'); heroVideo.pause(); }
+    let failed = false;
+    const fail = () => { if (failed) return; failed = true; heroVideo.remove(); hero.classList.remove('has-video'); initTerrain(); };
+    heroVideo.addEventListener('error', fail);
+    heroVideo.querySelectorAll('source').forEach(s => s.addEventListener('error', fail));
+    // Si el navegador ya descartó la fuente antes de que corriera este script:
+    if (heroVideo.networkState === 3 || heroVideo.error) fail();
+    return;
+  }
+  initTerrain();
+  function initTerrain() {
+  const c = document.getElementById('terrain');
+  const ctx = c.getContext('2d');
+  let w = 0, h = 0, t = 0, last = 0, visible = true, raf = 0;
+
+  const size = () => {
+    const dpr = Math.min(window.devicePixelRatio || 1, 1.5);
+    const r = c.getBoundingClientRect();
+    w = r.width; h = r.height;
+    c.width = Math.round(w * dpr); c.height = Math.round(h * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  };
+  const terrainH = (x, z) =>
+    Math.sin(x * .32 + z * .21) * 1.1 + Math.sin(x * .85 - z * .37) * .45 +
+    Math.sin(x * 1.7 + z * .83) * .16 + Math.cos(z * .14 + x * .1) * .8;
+
+  const draw = () => {
+    const horizon = h * .40, focal = h * .95, camH = 3.4, cx = w * .66;
+    const sky = ctx.createLinearGradient(0, 0, 0, horizon);
+    sky.addColorStop(0, '#050B18'); sky.addColorStop(1, '#0D2550');
+    ctx.fillStyle = sky; ctx.fillRect(0, 0, w, h);
+    const glow = ctx.createRadialGradient(cx, horizon, 0, cx, horizon, Math.max(w, h) * .55);
+    glow.addColorStop(0, 'rgba(34,211,238,.22)'); glow.addColorStop(1, 'rgba(34,211,238,0)');
+    ctx.fillStyle = glow; ctx.fillRect(0, 0, w, h);
+
+    const spacing = .85, N = 48, speed = .75;
+    const travel = t * speed, k0 = Math.floor(travel / spacing) + 1;
+    const step = Math.max(8, w / 96);
+    for (let i = N; i >= 0; i--) {
+      const Z = (k0 + i) * spacing, z = Z - travel;
+      if (z < .5) continue;
+      const pts = [];
+      for (let sx = -step; sx <= w + step; sx += step) {
+        const x = (sx - cx) * z / focal;
+        pts.push(sx, horizon + (camH - terrainH(x, Z) * .55) / z * focal * .5);
+      }
+      const depth = 1 - i / N;
+      ctx.beginPath();
+      ctx.moveTo(pts[0], pts[1]);
+      for (let p = 2; p < pts.length; p += 2) ctx.lineTo(pts[p], pts[p + 1]);
+      ctx.lineTo(w + step, h); ctx.lineTo(-step, h); ctx.closePath();
+      ctx.fillStyle = '#050B18'; ctx.fill();
+      ctx.beginPath();
+      ctx.moveTo(pts[0], pts[1]);
+      for (let p = 2; p < pts.length; p += 2) ctx.lineTo(pts[p], pts[p + 1]);
+      ctx.strokeStyle = `rgba(34,211,238,${(.06 + .6 * depth * depth).toFixed(3)})`;
+      ctx.lineWidth = .6 + depth * .8;
+      ctx.stroke();
+    }
+  };
+  const loop = (now) => {
+    const dt = last ? Math.min(now - last, 50) : 16; last = now;
+    t += dt / 1000;
+    draw();
+    raf = visible ? requestAnimationFrame(loop) : 0;
+  };
+  size(); draw();
+  window.addEventListener('resize', () => { size(); draw(); });
+  if (reduceMotion) return;
+  const start = () => { if (!raf && visible && !document.hidden) { last = 0; raf = requestAnimationFrame(loop); } };
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(([e]) => { visible = e.isIntersecting; if (visible) start(); }).observe(hero);
+  }
+  document.addEventListener('visibilitychange', () => { if (document.hidden) { cancelAnimationFrame(raf); raf = 0; } else start(); });
+  start();
+  }
+})();
+
+/* ===== HUD: código de tiempo ===== */
+(() => {
+  const el = document.getElementById('timecode');
+  if (!el || reduceMotion) return;
+  const t0 = performance.now(), pad = n => String(n).padStart(2, '0');
+  setInterval(() => {
+    const s = (performance.now() - t0) / 1000;
+    el.textContent = `${pad(Math.floor(s / 3600))}:${pad(Math.floor(s / 60) % 60)}:${pad(Math.floor(s) % 60)}:${pad(Math.floor((s % 1) * 24))}`;
+  }, 1000 / 24);
+})();
+
+/* ===== Altímetro de scroll ===== */
+(() => {
+  const bug = document.getElementById('alt-bug'), val = document.getElementById('alt-val');
+  const alt = document.querySelector('.altimeter'), hero = document.getElementById('inicio');
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(([e]) => alt.classList.toggle('on', !e.isIntersecting), { threshold: 0, rootMargin: '-35% 0px 0px 0px' }).observe(hero);
+  } else alt.classList.add('on');
+  let ticking = false;
+  const update = () => {
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    const p = max > 0 ? Math.min(1, Math.max(0, window.scrollY / max)) : 0;
+    bug.style.top = `calc(${(p * 100).toFixed(2)}% - 1px)`;
+    val.textContent = Math.round(120 * (1 - p));
+    ticking = false;
+  };
+  window.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+  update();
+})();
+
+/* ===== Portafolio: portadas gráficas (se reemplazan por fotos y videos reales) ===== */
+const Art = (() => {
+  const rng = (a) => () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+  const CY = '34,211,238', MT = '214,226,240';
+  const base = (ctx, w, h, gx, gy) => {
+    const g = ctx.createLinearGradient(0, 0, w, h);
+    g.addColorStop(0, '#0D2048'); g.addColorStop(1, '#050B18');
+    ctx.fillStyle = g; ctx.fillRect(0, 0, w, h);
+    const r = ctx.createRadialGradient(w * gx, h * gy, 0, w * gx, h * gy, Math.max(w, h) * .75);
+    r.addColorStop(0, `rgba(${CY},.18)`); r.addColorStop(1, `rgba(${CY},0)`);
+    ctx.fillStyle = r; ctx.fillRect(0, 0, w, h);
+  };
+  const scenes = {
+    terrain(ctx, w, h, R) {
+      const horizon = h * .36, focal = h * .95, camH = 3.2, cx = w * .62, t = R() * 40;
+      const sky = ctx.createLinearGradient(0, 0, 0, horizon);
+      sky.addColorStop(0, '#050B18'); sky.addColorStop(1, '#0E2756');
+      ctx.fillStyle = sky; ctx.fillRect(0, 0, w, h);
+      const glow = ctx.createRadialGradient(cx, horizon, 0, cx, horizon, Math.max(w, h) * .6);
+      glow.addColorStop(0, `rgba(${CY},.28)`); glow.addColorStop(1, `rgba(${CY},0)`);
+      ctx.fillStyle = glow; ctx.fillRect(0, 0, w, h);
+      const H = (x, z) => Math.sin(x * .32 + z * .21) * 1.1 + Math.sin(x * .85 - z * .37) * .45 + Math.sin(x * 1.7 + z * .83) * .16 + Math.cos(z * .14 + x * .1) * .8;
+      const N = 44, sp = .85, step = Math.max(6, w / 90);
+      for (let i = N; i >= 0; i--) {
+        const z = .9 + i * sp, Z = z + t, pts = [];
+        for (let sx = -step; sx <= w + step; sx += step) pts.push(sx, horizon + (camH - H((sx - cx) * z / focal, Z) * .55) / z * focal * .5);
+        const d = 1 - i / N;
+        ctx.beginPath(); ctx.moveTo(pts[0], pts[1]);
+        for (let k = 2; k < pts.length; k += 2) ctx.lineTo(pts[k], pts[k + 1]);
+        ctx.lineTo(w + step, h); ctx.lineTo(-step, h); ctx.closePath(); ctx.fillStyle = '#050B18'; ctx.fill();
+        ctx.beginPath(); ctx.moveTo(pts[0], pts[1]);
+        for (let k = 2; k < pts.length; k += 2) ctx.lineTo(pts[k], pts[k + 1]);
+        ctx.strokeStyle = `rgba(${CY},${(.06 + .62 * d * d).toFixed(3)})`; ctx.lineWidth = .6 + d * .9; ctx.stroke();
+      }
+    },
+    city(ctx, w, h, R) {
+      base(ctx, w, h, .55, .5);
+      const D = Math.hypot(w, h), cell = Math.max(28, D / 14);
+      ctx.save(); ctx.translate(w * .5, h * .5); ctx.rotate(-.34);
+      for (let x = -D / 2; x < D / 2; x += cell) for (let y = -D / 2; y < D / 2; y += cell) {
+        const m = cell * .13, bw = cell - m * 2, bh = cell - m * 2;
+        const parts = R() < .45 ? [[0, 0, bw * .5 - 2, bh], [bw * .5 + 2, 0, bw * .5 - 2, bh]] : (R() < .3 ? [[0, 0, bw, bh * .5 - 2], [0, bh * .5 + 2, bw, bh * .5 - 2]] : [[0, 0, bw, bh]]);
+        for (const [px, py, pw, ph] of parts) {
+          const v = R();
+          ctx.fillStyle = `rgba(${MT},${(.035 + v * .08).toFixed(3)})`; ctx.fillRect(x + m + px, y + m + py, pw, ph);
+          if (v > .9) { ctx.strokeStyle = `rgba(${CY},.45)`; ctx.lineWidth = 1; ctx.strokeRect(x + m + px + .5, y + m + py + .5, pw - 1, ph - 1); }
+        }
+      }
+      ctx.strokeStyle = `rgba(${CY},.22)`; ctx.lineWidth = 2;
+      ctx.beginPath(); ctx.moveTo(-D / 2, cell * 2); ctx.lineTo(D / 2, cell * 2); ctx.moveTo(-cell * 2, -D / 2); ctx.lineTo(-cell * 2, D / 2); ctx.stroke();
+      ctx.shadowColor = `rgba(${CY},.9)`; ctx.shadowBlur = 18;
+      ctx.fillStyle = `rgba(${CY},.22)`; ctx.fillRect(cell * .13, cell * .13, cell * 1.74, cell * .74);
+      ctx.strokeStyle = `rgba(${CY},.95)`; ctx.lineWidth = 1.2; ctx.strokeRect(cell * .13, cell * .13, cell * 1.74, cell * .74);
+      ctx.restore();
+    },
+    site(ctx, w, h, R) {
+      base(ctx, w, h, .3, .25);
+      ctx.strokeStyle = `rgba(${MT},.05)`; ctx.lineWidth = 1;
+      for (let x = 0; x < w; x += 18) { ctx.beginPath(); ctx.moveTo(x + .5, 0); ctx.lineTo(x + .5, h); ctx.stroke(); }
+      for (let y = 0; y < h; y += 18) { ctx.beginPath(); ctx.moveTo(0, y + .5); ctx.lineTo(w, y + .5); ctx.stroke(); }
+      const fx = w * .16, fy = h * .22, fw = w * .6, fh = h * .5, cols = 8, rows = 5, cw = fw / cols, rh = fh / rows;
+      for (let i = 0; i < cols; i++) for (let j = 0; j < rows; j++) {
+        if ((i + j * .6) / cols < .62) { ctx.fillStyle = `rgba(${MT},${(.07 + R() * .06).toFixed(3)})`; ctx.fillRect(fx + i * cw + 1, fy + j * rh + 1, cw - 2, rh - 2); }
+      }
+      ctx.fillStyle = `rgba(${MT},.55)`;
+      for (let i = 0; i <= cols; i++) for (let j = 0; j <= rows; j++) { ctx.beginPath(); ctx.arc(fx + i * cw, fy + j * rh, 1.5, 0, 6.3); ctx.fill(); }
+      ctx.setLineDash([6, 5]); ctx.strokeStyle = `rgba(${CY},.7)`; ctx.strokeRect(fx - 14, fy - 14, fw + 28, fh + 28); ctx.setLineDash([]);
+      const mx = fx + fw * .82, my = fy + fh * .3, L = Math.min(w, h) * .42, an = -2.5;
+      ctx.setLineDash([3, 6]); ctx.strokeStyle = `rgba(${CY},.25)`; ctx.beginPath(); ctx.arc(mx, my, L, 0, 6.3); ctx.stroke(); ctx.setLineDash([]);
+      ctx.strokeStyle = `rgba(${CY},.95)`; ctx.lineWidth = 2;
+      ctx.beginPath(); ctx.moveTo(mx - Math.cos(an) * L * .25, my - Math.sin(an) * L * .25); ctx.lineTo(mx + Math.cos(an) * L, my + Math.sin(an) * L); ctx.stroke();
+      ctx.fillStyle = `rgba(${CY},.95)`; ctx.fillRect(mx - 4, my - 4, 8, 8);
+    },
+    crowd(ctx, w, h, R) {
+      base(ctx, w, h, .5, .1);
+      const sx = w * .5, sy = h * .12, sw = w * .3, sh = h * .07;
+      const beam = ctx.createLinearGradient(0, sy, 0, h);
+      beam.addColorStop(0, `rgba(${CY},.16)`); beam.addColorStop(1, `rgba(${CY},0)`);
+      ctx.fillStyle = beam; ctx.beginPath(); ctx.moveTo(sx - sw * .4, sy); ctx.lineTo(sx + sw * .4, sy); ctx.lineTo(sx + w * .45, h); ctx.lineTo(sx - w * .45, h); ctx.closePath(); ctx.fill();
+      const n = Math.round(w * h / 90);
+      for (let i = 0; i < n; i++) {
+        const r = h * (.1 + Math.pow(R(), 1.5) * .95), a = Math.PI / 2 + (R() - .5) * 2.1;
+        const x = sx + Math.cos(a) * r * 1.35, y = sy + sh + Math.sin(a) * r * .9;
+        const lit = R() < .04;
+        ctx.fillStyle = lit ? `rgba(${CY},.9)` : `rgba(${MT},${(.18 + R() * .5).toFixed(2)})`;
+        ctx.beginPath(); ctx.arc(x, y, lit ? 1.4 : .9 + R() * .7, 0, 6.3); ctx.fill();
+      }
+      ctx.shadowColor = `rgba(${CY},.9)`; ctx.shadowBlur = 16;
+      ctx.fillStyle = `rgba(${CY},.3)`; ctx.fillRect(sx - sw / 2, sy, sw, sh);
+      ctx.strokeStyle = `rgba(${CY},.95)`; ctx.lineWidth = 1.2; ctx.strokeRect(sx - sw / 2, sy, sw, sh);
+      ctx.shadowBlur = 0;
+    },
+    contour(ctx, w, h, R) {
+      base(ctx, w, h, .25, .7);
+      ctx.save(); ctx.beginPath(); ctx.moveTo(w, h * .45); ctx.lineTo(w, h); ctx.lineTo(w * .45, h); ctx.closePath(); ctx.clip();
+      ctx.strokeStyle = `rgba(${MT},.08)`; ctx.lineWidth = 2;
+      for (let k = -h; k < w + h; k += 9) { ctx.beginPath(); ctx.moveTo(k, h); ctx.lineTo(k + h, 0); ctx.stroke(); }
+      ctx.restore();
+      const m = Math.min(w, h);
+      [[w * .32, h * .44, 1, R() * 6], [w * .74, h * .3, .7, R() * 6]].forEach(([cx, cy, sc, ph]) => {
+        for (let k = 1; k <= 15; k++) {
+          ctx.beginPath();
+          for (let th = 0; th <= 6.3; th += .05) {
+            const r = k * m * .045 * sc * (1 + .14 * Math.sin(3 * th + k * .4 + ph) + .07 * Math.sin(5 * th + ph * 2));
+            const x = cx + Math.cos(th) * r * 1.25, y = cy + Math.sin(th) * r;
+            th ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
+          }
+          ctx.closePath();
+          const major = k % 5 === 0;
+          ctx.strokeStyle = `rgba(${CY},${major ? .6 : .2})`; ctx.lineWidth = major ? 1.2 : .8; ctx.stroke();
+        }
+      });
+    },
+    facade(ctx, w, h, R) {
+      base(ctx, w, h, .85, .05);
+      ctx.save(); ctx.transform(1, -.14, 0, 1, 0, w * .1);
+      const x0 = w * .2, fw = w * .62, y0 = h * .06, fh = h * 1.1, cols = 9, rows = 15;
+      ctx.fillStyle = `rgba(${MT},.07)`; ctx.fillRect(x0, y0, fw, fh);
+      const cw = fw / cols, rh = fh / rows;
+      for (let i = 0; i < cols; i++) for (let j = 0; j < rows; j++) {
+        const lit = R() < .14;
+        ctx.fillStyle = lit ? `rgba(${CY},${(.35 + R() * .35).toFixed(2)})` : `rgba(${MT},${(.08 + R() * .1).toFixed(2)})`;
+        ctx.fillRect(x0 + i * cw + cw * .14, y0 + j * rh + rh * .16, cw * .72, rh * .62);
+      }
+      ctx.strokeStyle = `rgba(${MT},.7)`; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(x0 + fw, y0); ctx.lineTo(x0 + fw, y0 + fh); ctx.stroke();
+      ctx.strokeStyle = `rgba(${CY},.8)`; ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x0 + fw, y0); ctx.stroke();
+      ctx.restore();
+      const l = ctx.createLinearGradient(0, 0, w, h);
+      l.addColorStop(.3, 'rgba(238,242,247,0)'); l.addColorStop(.5, 'rgba(238,242,247,.07)'); l.addColorStop(.62, 'rgba(238,242,247,0)');
+      ctx.fillStyle = l; ctx.fillRect(0, 0, w, h);
+    }
+  };
+  const draw = (canvas, scene, seed) => {
+    const r = canvas.getBoundingClientRect();
+    if (!r.width || !r.height) return;
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = Math.round(r.width * dpr); canvas.height = Math.round(r.height * dpr);
+    const ctx = canvas.getContext('2d'); ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    (scenes[scene] || scenes.terrain)(ctx, r.width, r.height, rng(seed));
+    ctx.shadowBlur = 0;
+    const v = ctx.createRadialGradient(r.width / 2, r.height / 2, Math.min(r.width, r.height) * .35, r.width / 2, r.height / 2, Math.max(r.width, r.height) * .8);
+    v.addColorStop(0, 'rgba(5,11,24,0)'); v.addColorStop(1, 'rgba(5,11,24,.55)');
+    ctx.fillStyle = v; ctx.fillRect(0, 0, r.width, r.height);
+  };
+  const seedOf = (tile) => (parseInt((tile.dataset.id || 'p1').slice(1), 10) || 1) * 97 + 11;
+  return { draw, seedOf };
+})();
+(() => {
+  const paint = (c) => { const t = c.closest('.tile'); if (t) Art.draw(c, t.dataset.scene, Art.seedOf(t)); };
+  const canvases = [...document.querySelectorAll('#gallery .art')];
+  if ('ResizeObserver' in window) {
+    const ro = new ResizeObserver(entries => entries.forEach(e => paint(e.target)));
+    canvases.forEach(c => ro.observe(c));
+  } else {
+    canvases.forEach(paint);
+    window.addEventListener('resize', () => canvases.forEach(paint));
+  }
+})();
+
+/* ===== Portafolio: filtros y visor ===== */
+(() => {
+  const tiles = [...document.querySelectorAll('#gallery .tile')];
+  // Si una foto real no carga (ruta equivocada o archivo faltante), vuelve a mostrarse la portada gráfica.
+  tiles.forEach(t => t.querySelectorAll(':scope > img').forEach(img => {
+    const drop = () => { console.warn('Portafolio: no se encontró ' + img.getAttribute('src')); img.remove(); };
+    if (img.complete && img.naturalWidth === 0 && img.getAttribute('src')) drop(); else img.addEventListener('error', drop);
+  }));
+  const embedUrl = (u) => {
+    let m = u.match(/(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{6,})/);
+    if (m) return `https://www.youtube-nocookie.com/embed/${m[1]}?autoplay=1&rel=0`;
+    m = u.match(/vimeo\.com\/(?:video\/)?(\d+)/);
+    if (m) return `https://player.vimeo.com/video/${m[1]}?autoplay=1`;
+    return null;
+  };
+  const chips = [...document.querySelectorAll('.chip')];
+  chips.forEach(chip => chip.addEventListener('click', () => {
+    const f = chip.dataset.filter;
+    chips.forEach(c => c.setAttribute('aria-pressed', String(c === chip)));
+    tiles.forEach(t => { t.hidden = !(f === 'todo' || t.dataset.tipo === f || t.dataset.cat === f); });
+  }));
+
+  const dlg = document.getElementById('lightbox');
+  const stage = document.getElementById('lb-stage');
+  const title = document.getElementById('lb-title');
+  let current = 0;
+  const visibleTiles = () => tiles.filter(t => !t.hidden);
+
+  // Vista ampliada de una portada gráfica, con acceso directo a la cotización
+  const artView = (tile) => {
+    const wrap = document.createElement('div'); wrap.className = 'lb-art';
+    const c = document.createElement('canvas'); c.className = 'art'; c.setAttribute('aria-hidden', 'true');
+    const info = document.createElement('div'); info.className = 'lb-info';
+    const k = document.createElement('span'); k.className = 'tile-kicker'; k.textContent = tile.querySelector('.tile-kicker')?.textContent || '';
+    const h = document.createElement('strong'); h.textContent = tile.querySelector('.tile-title')?.textContent || '';
+    const p = document.createElement('p'); p.textContent = tile.querySelector('.tile-desc')?.textContent || '';
+    const a = document.createElement('a'); a.className = 'btn btn-primary'; a.href = '#cotizar'; a.textContent = 'Cotizar un proyecto así';
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      const sel = document.getElementById('f-servicio');
+      if (tile.dataset.servicio && [...sel.options].some(o => o.text === tile.dataset.servicio)) sel.value = tile.dataset.servicio;
+      restoreFocus = false;
+      close();
+      document.getElementById('cotizar').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+      setTimeout(() => document.getElementById('f-nombre').focus({ preventScroll: true }), 400);
+    });
+    info.append(k, h, p, a); wrap.append(c, info);
+    requestAnimationFrame(() => Art.draw(c, tile.dataset.scene, Art.seedOf(tile)));
+    return wrap;
+  };
+  const show = (tile) => {
+    stage.innerHTML = '';
+    stage.classList.remove('is-art');
+    const vid = tile.dataset.video;
+    const img = tile.querySelector('img');
+    const ext = vid ? embedUrl(vid) : null;
+    if (ext) {
+      const f = document.createElement('iframe');
+      f.src = ext; f.title = tile.dataset.title || 'Video'; f.allow = 'autoplay; fullscreen; picture-in-picture'; f.allowFullscreen = true;
+      stage.appendChild(f);
+    } else if (vid) {
+      const v = document.createElement('video');
+      v.src = vid; v.controls = true; v.playsInline = true; v.preload = 'metadata';
+      if (img) v.poster = img.currentSrc || img.src;
+      v.addEventListener('error', () => { stage.classList.add('is-art'); v.replaceWith(artView(tile)); console.warn('Portafolio: no se encontró ' + vid); });
+      stage.appendChild(v);
+    } else if (img) {
+      const i = document.createElement('img');
+      i.src = img.dataset.full || img.currentSrc || img.src; i.alt = img.alt;
+      stage.appendChild(i);
+    } else {
+      stage.classList.add('is-art');
+      stage.appendChild(artView(tile));
+    }
+    title.textContent = tile.dataset.title || '';
+  };
+  let opener = null, restoreFocus = true;
+  const open = (tile) => {
+    opener = tile; restoreFocus = true;
+    current = visibleTiles().indexOf(tile);
+    show(tile);
+    if (typeof dlg.showModal === 'function') dlg.showModal(); else dlg.setAttribute('open', '');
+  };
+  const move = (d) => {
+    const list = visibleTiles(); if (!list.length) return;
+    current = (current + d + list.length) % list.length;
+    opener = list[current];
+    show(list[current]);
+  };
+  const close = () => { stage.innerHTML = ''; dlg.close ? dlg.close() : dlg.removeAttribute('open'); };
+
+  tiles.forEach(t => t.addEventListener('click', () => open(t)));
+  document.getElementById('lb-prev').addEventListener('click', () => move(-1));
+  document.getElementById('lb-next').addEventListener('click', () => move(1));
+  document.getElementById('lb-close').addEventListener('click', close);
+  dlg.addEventListener('click', e => { if (e.target === dlg) close(); });
+  dlg.addEventListener('close', () => {
+    stage.innerHTML = '';
+    if (restoreFocus && opener) opener.focus();
+  });
+  dlg.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight') move(1);
+    if (e.key === 'ArrowLeft') move(-1);
+  });
+})();
+
+/* ===== Copiar al portapapeles ===== */
+function copyText(text, btn) {
+  const done = (ok) => {
+    if (!btn) return;
+    const prev = btn.textContent;
+    btn.textContent = ok ? 'Copiado' : 'Selecciona y copia';
+    setTimeout(() => { btn.textContent = prev; }, 1800);
+  };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(() => done(true), () => done(false));
+  } else done(false);
+}
+document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click', () => copyText(b.dataset.copy, b)));
+
+/* ===== Formulario de cotización ===== */
+(() => {
+  const form = document.getElementById('quote-form');
+  const body = document.getElementById('quote-body');
+  const result = document.getElementById('form-result');
+  const submit = document.getElementById('f-submit');
+  // Sin integración de envío, el botón solo prepara el mensaje: nunca anuncia un envío.
+  const SUBMIT_LABEL = CONFIG.formEndpoint ? 'Enviar solicitud' : 'Preparar solicitud';
+  submit.textContent = SUBMIT_LABEL;
+  if (CONFIG.formEndpoint) {
+    document.getElementById('form-hint').textContent = 'Te responderemos al correo que indiques.';
+  }
+  const rules = {
+    nombre: v => v.trim().length >= 2 || 'Escribe tu nombre o el de tu empresa.',
+    correo: v => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim()) || 'Escribe un correo válido, por ejemplo nombre@correo.com.',
+    servicio: v => !!v || 'Elige la solución que te interesa.',
+    mensaje: v => v.trim().length >= 10 || 'Describe brevemente tu proyecto (mínimo 10 caracteres).'
+  };
+  const setErr = (name, msg) => {
+    const input = document.getElementById('f-' + name);
+    const field = input.closest('.field');
+    if (field) field.classList.toggle('invalid', !!msg);
+    input.setAttribute('aria-invalid', msg ? 'true' : 'false');
+    const err = document.getElementById('e-' + name);
+    if (err) err.textContent = msg || '';
+  };
+  Object.keys(rules).forEach(n => {
+    const input = document.getElementById('f-' + n);
+    input.setAttribute('aria-describedby', 'e-' + n);
+    input.addEventListener('blur', () => { const r = rules[n](input.value); setErr(n, r === true ? '' : r); });
+    input.addEventListener('input', () => { if (input.getAttribute('aria-invalid') === 'true') { const r = rules[n](input.value); setErr(n, r === true ? '' : r); } });
+  });
+
+  const buildMessage = (d) => [
+    'Hola, AERNOXA SOLUTIONS. Quiero solicitar una propuesta.',
+    '',
+    `Nombre: ${d.nombre}`,
+    `Correo: ${d.correo}`,
+    d.telefono ? `Teléfono / WhatsApp: ${d.telefono}` : null,
+    `Solución de interés: ${d.servicio}`,
+    d.fecha ? `Fecha estimada: ${d.fecha}` : null,
+    d.ubicacion ? `Ubicación del proyecto: ${d.ubicacion}` : null,
+    '',
+    'Proyecto:',
+    d.mensaje
+  ].filter(l => l !== null).join('\n');
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (document.getElementById('f-web').value) return; // anti-spam
+    const d = Object.fromEntries(new FormData(form).entries());
+    let firstBad = null;
+    Object.keys(rules).forEach(n => {
+      const r = rules[n](d[n] || '');
+      setErr(n, r === true ? '' : r);
+      if (r !== true && !firstBad) firstBad = document.getElementById('f-' + n);
+    });
+    const consent = document.getElementById('f-datos');
+    document.getElementById('e-datos').textContent = consent.checked ? '' : 'Marca la autorización para que podamos responder tu solicitud.';
+    if (!consent.checked && !firstBad) firstBad = consent;
+    if (firstBad) { firstBad.focus(); return; }
+
+    const msg = buildMessage(d);
+
+    if (CONFIG.formEndpoint) {
+      submit.disabled = true; submit.textContent = 'Enviando…';
+      try {
+        const res = await fetch(CONFIG.formEndpoint, {
+          method: 'POST', headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+          body: JSON.stringify({ ...d, mensaje_completo: msg, _subject: `Solicitud de propuesta · ${d.servicio} · ${d.nombre}` })
+        });
+        if (!res.ok) throw new Error();
+        document.getElementById('result-title').textContent = 'Solicitud enviada';
+        document.getElementById('result-text').textContent = `Gracias, ${d.nombre}. Te responderemos a ${d.correo}.`;
+        document.getElementById('result-msg').hidden = true;
+        document.getElementById('result-mail').hidden = true;
+        document.getElementById('result-copy').hidden = true;
+        document.getElementById('result-back').textContent = 'Nueva solicitud';
+        form.reset();
+      } catch {
+        submit.disabled = false; submit.textContent = SUBMIT_LABEL;
+        document.getElementById('e-datos').textContent = 'No pudimos enviar la solicitud. Revisa tu conexión e inténtalo de nuevo, o escríbenos a ' + CONFIG.correo + '.';
+        return;
+      }
+      submit.disabled = false; submit.textContent = SUBMIT_LABEL;
+    } else {
+      document.getElementById('result-msg').textContent = msg;
+      const subject = `Solicitud de propuesta · ${d.servicio} · ${d.nombre}`;
+      document.getElementById('result-mail').href =
+        `mailto:${CONFIG.correo}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(msg)}`;
+    }
+    body.hidden = true; result.hidden = false;
+    result.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
+  });
+
+  document.getElementById('result-copy').addEventListener('click', (e) => copyText(document.getElementById('result-msg').textContent, e.currentTarget));
+  document.getElementById('result-back').addEventListener('click', () => { result.hidden = true; body.hidden = false; document.getElementById('f-nombre').focus(); });
+})();
+
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+
+</body>
+</html>

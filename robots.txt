@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mfsuarezh5-ing.github.io/aernoxasolutions/sitemap.xml
