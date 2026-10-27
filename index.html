@@ -532,11 +532,9 @@ main:focus{outline:none}
   <!-- 1. INICIO -->
   <section class="hero" id="inicio" aria-labelledby="hero-title">
     <div class="hero-media">
-      <!-- VIDEO DE PORTADA: cuando tengas tu toma aérea (MP4, 10–20 s, sin audio, < 10 MB), descomenta:
       <video autoplay muted loop playsinline preload="metadata" poster="assets/img/portada/portada.jpg">
         <source src="assets/video/portada.mp4" type="video/mp4">
       </video>
-      -->
       <canvas id="terrain" aria-hidden="true"></canvas>
     </div>
     <div class="hero-shade"></div>
@@ -703,7 +701,7 @@ main:focus{outline:none}
       <div class="section-head reveal">
         <span class="eyebrow">Portafolio</span>
         <h2 id="portfolio-title">Cada proyecto tiene su propio lenguaje visual.</h2>
-        <p class="lead">Así abordamos cada línea de trabajo: con un plan de tomas, una intención estética y un uso final claro.</p>
+        <p class="lead">Una selección de nuestros vuelos recientes: eventos, turismo, obra y territorio, capturados en 4K con un plan de tomas y un uso final claro.</p>
       </div>
 
       <div class="filters" role="group" aria-label="Filtrar portafolio">
@@ -730,35 +728,41 @@ main:focus{outline:none}
         · Tamaños: class="tile feature" (destacado, 2×2) · class="tile" (normal)
       -->
       <div class="gallery" id="gallery">
-        <button data-id="p01" class="tile feature" type="button" aria-haspopup="dialog" data-cat="audiovisual" data-tipo="video" data-scene="terrain" data-servicio="Producción audiovisual aérea" data-title="Producción audiovisual · Historias contadas desde el aire">
+        <button data-id="p01" class="tile feature" type="button" aria-haspopup="dialog" data-cat="audiovisual" data-tipo="video" data-scene="terrain" data-servicio="Producción audiovisual aérea" data-video="assets/video/portafolio/p01.mp4" data-title="Cobertura deportiva · Autódromo">
+          <img src="assets/img/portafolio/p01.jpg" alt="Toma aérea cenital de motos tomando una curva en un autódromo" loading="lazy" width="1600" height="900">
           <div class="ph"><canvas class="art" aria-hidden="true"></canvas></div>
           <span class="tile-hud" aria-hidden="true"></span>
-          <span class="tile-info"><span class="tile-kicker">Producción audiovisual</span><span class="tile-title">Historias contadas desde el aire</span><span class="tile-desc">Tomas cinematográficas con movimientos planeados, color y ritmo de marca.</span></span>
+          <span class="tile-info"><span class="tile-kicker">Eventos deportivos · Video</span><span class="tile-title">La adrenalina, desde arriba</span><span class="tile-desc">Cobertura aérea en 4K de una jornada de motociclismo: salida, curvas y escala completa del evento.</span></span>
         </button>
-        <button data-id="p02" class="tile" type="button" aria-haspopup="dialog" data-cat="inmobiliario" data-tipo="foto" data-scene="city" data-servicio="Inmobiliario y arquitectura" data-title="Inmobiliario · El proyecto en su contexto">
+        <button data-id="p02" class="tile" type="button" aria-haspopup="dialog" data-cat="territorio" data-tipo="foto" data-scene="city" data-servicio="Inmobiliario y arquitectura" data-title="Turismo · Villa de Leyva">
+          <img src="assets/img/portafolio/p02.jpg" alt="Vista aérea de los tejados coloniales de Villa de Leyva, Boyacá" loading="lazy" width="1600" height="900">
           <div class="ph"><canvas class="art" aria-hidden="true"></canvas></div>
           <span class="tile-hud" aria-hidden="true"></span>
-          <span class="tile-info"><span class="tile-kicker">Inmobiliario</span><span class="tile-title">El proyecto en su contexto</span><span class="tile-desc">Ubicación, vías, entorno y vistas reales en una sola imagen.</span></span>
+          <span class="tile-info"><span class="tile-kicker">Turismo y patrimonio</span><span class="tile-title">Villa de Leyva desde el aire</span><span class="tile-desc">Tejados, patios y calles coloniales con una perspectiva que no se ve desde tierra.</span></span>
         </button>
-        <button data-id="p03" class="tile" type="button" aria-haspopup="dialog" data-cat="obras" data-tipo="foto" data-scene="site" data-servicio="Documentación y seguimiento de obra" data-title="Construcción · El avance, visto completo">
+        <button data-id="p03" class="tile" type="button" aria-haspopup="dialog" data-cat="obras" data-tipo="foto" data-scene="site" data-servicio="Documentación y seguimiento de obra" data-title="Seguimiento de obra · Vivienda">
+          <img src="assets/img/portafolio/p03.jpg" alt="Vista aérea de un proyecto de vivienda en construcción" loading="lazy" width="1600" height="900">
           <div class="ph"><canvas class="art" aria-hidden="true"></canvas></div>
           <span class="tile-hud" aria-hidden="true"></span>
-          <span class="tile-info"><span class="tile-kicker">Construcción</span><span class="tile-title">El avance, visto completo</span><span class="tile-desc">Registros periódicos desde los mismos puntos de vista.</span></span>
+          <span class="tile-info"><span class="tile-kicker">Construcción</span><span class="tile-title">El avance, visto completo</span><span class="tile-desc">Estructura, mampostería y accesos registrados desde los mismos puntos de vista.</span></span>
         </button>
-        <button data-id="p04" class="tile" type="button" aria-haspopup="dialog" data-cat="eventos" data-tipo="video" data-scene="crowd" data-servicio="Eventos y marcas" data-title="Eventos · La escala de un momento">
+        <button data-id="p04" class="tile" type="button" aria-haspopup="dialog" data-cat="eventos" data-tipo="video" data-scene="crowd" data-servicio="Eventos y marcas" data-video="assets/video/portafolio/p04.mp4" data-title="Eventos · Parrilla de salida">
+          <img src="assets/img/portafolio/p04.jpg" alt="Vista aérea de la parrilla de salida de un evento de motociclismo" loading="lazy" width="1600" height="900">
           <div class="ph"><canvas class="art" aria-hidden="true"></canvas></div>
           <span class="tile-hud" aria-hidden="true"></span>
-          <span class="tile-info"><span class="tile-kicker">Eventos</span><span class="tile-title">La escala de un momento</span><span class="tile-desc">Planos cenitales y aperturas que muestran la magnitud del evento.</span></span>
+          <span class="tile-info"><span class="tile-kicker">Eventos · Video</span><span class="tile-title">La escala de un momento</span><span class="tile-desc">Planos cenitales de la parrilla de salida, el público y la organización del evento.</span></span>
         </button>
-        <button data-id="p05" class="tile" type="button" aria-haspopup="dialog" data-cat="territorio" data-tipo="foto" data-scene="contour" data-servicio="Turismo y territorio" data-title="Territorio · Paisaje y predios en perspectiva">
+        <button data-id="p05" class="tile" type="button" aria-haspopup="dialog" data-cat="territorio" data-tipo="foto" data-scene="contour" data-servicio="Turismo y territorio" data-title="Territorio · Predios y entorno">
+          <img src="assets/img/portafolio/p05.jpg" alt="Vista aérea de viviendas junto a predios cultivados" loading="lazy" width="1600" height="900">
           <div class="ph"><canvas class="art" aria-hidden="true"></canvas></div>
           <span class="tile-hud" aria-hidden="true"></span>
-          <span class="tile-info"><span class="tile-kicker">Territorio</span><span class="tile-title">Paisaje y predios en perspectiva</span><span class="tile-desc">Vistas amplias de terrenos, cultivos y destinos.</span></span>
+          <span class="tile-info"><span class="tile-kicker">Territorio</span><span class="tile-title">Paisaje y predios en perspectiva</span><span class="tile-desc">Viviendas, predios cultivados y vías en una sola vista.</span></span>
         </button>
-        <button data-id="p06" class="tile" type="button" aria-haspopup="dialog" data-cat="inmobiliario" data-tipo="foto" data-scene="facade" data-servicio="Inmobiliario y arquitectura" data-title="Arquitectura · Volumen, luz y materialidad">
+        <button data-id="p06" class="tile" type="button" aria-haspopup="dialog" data-cat="inmobiliario" data-tipo="foto" data-scene="facade" data-servicio="Inmobiliario y arquitectura" data-title="Arquitectura · Patios coloniales">
+          <img src="assets/img/portafolio/p06.jpg" alt="Detalle aéreo de patios y cubiertas coloniales en Villa de Leyva" loading="lazy" width="1600" height="900">
           <div class="ph"><canvas class="art" aria-hidden="true"></canvas></div>
           <span class="tile-hud" aria-hidden="true"></span>
-          <span class="tile-info"><span class="tile-kicker">Arquitectura</span><span class="tile-title">Volumen, luz y materialidad</span><span class="tile-desc">Fachadas y cubiertas desde ángulos imposibles en tierra.</span></span>
+          <span class="tile-info"><span class="tile-kicker">Arquitectura</span><span class="tile-title">Patios y cubiertas</span><span class="tile-desc">El detalle de la arquitectura colonial desde ángulos imposibles en tierra.</span></span>
         </button>
       </div>
       <div class="gallery-foot reveal">
